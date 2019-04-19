@@ -2,7 +2,9 @@
 layout: home
 background: 'img/bg-index.jpg'
 ---
-## A Personal Trainer For Eliminating Wasteful Electricity Use Habits.
+#### A Personal Trainer For Eliminating Wasted Electricity.
+
+##### Use for One Month and save at least 15% on your bill.
 
 ## Sub
 ### Three

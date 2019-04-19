@@ -2,8 +2,8 @@ title:             FitHome
 email:             your-email@example.com
 description:       Trim the Fat from your Electricity Bills.
 author:            HappyDay
-baseurl:           "FitHome_web"
-#baseurl:           ""
+#baseurl:           "FitHome_web"
+baseurl:           ""
 
 # Build settings
 markdown:          kramdown
