@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    Easy to make a web site - FitHome
+    
+  </title>
+
+  <meta name="description" content="I used GitHub pages to create the FitHome web site. GitHub has a nifty way to build a website that uses Jekyll. I’m new to Jekyll. So far there is alot to li...">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="/assets/vendor/fontawesome-free/css/all.min.css">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/2019/04/18/In-Process.html">
+  <link rel="alternate" type="application/rss+xml" title="FitHome" href="/feed.xml">
+
+</head>
+
+
+  <body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">FitHome</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+      aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/tech">Tech</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/posts">Posts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <!-- Page Header -->
+
+<header class="masthead"
+  style="background-image: url('../../../../img/bg-post.jpg')">
+  
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>Easy to make a web site</h1>
+            
+            <h2 class="subheading">with GitHub pages</h2>
+            
+            <span class="meta">Posted by
+              <a href="#">HappyDay</a>
+              on April 18, 2019 &middot; <span class="reading-time" title="Estimated read time">
+  
+   2 mins  read </span>
+</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <p>I used GitHub pages to create the <a href="https://bitknitting.github.io/FitHome_web/">FitHome web site</a>.<br />
+GitHub has a nifty way to build a website that uses Jekyll. I’m new to Jekyll.  So far there is alot to like:</p>
+<ul>
+  <li>I can write pages in markdown.</li>
+  <li>It is heavily template based - this reminds me alot like Flask.</li>
+  <li>A web site can start off with a basic template.</li>
+  <li>A local web site can run that automagically updates when changes are made to the file (like Flask).</li>
+</ul>
+
+<p><em>Note: I have already installed a local copy of Jekyll.</em></p>
+<h4 id="steps">Steps</h4>
+<p>I decided to start with <a href="https://startbootstrap.com/themes/clean-blog-jekyll/">the clean blog template from Start Bootstrap</a>.  The tree and template structure is already Jekyll aware.  It uses Bootstrap to make styling the site easier.  It has a look I like.</p>
+<ul>
+  <li>Copied to my local repo directory.</li>
+  <li>Changed the base URL to “/”.</li>
+  <li>Made sure it worked on Localhost:4000.</li>
+  <li>Deleted the original .git directory (I found deleting Start Bootstrap’s repo the easiest way to link to my remote repo)</li>
+  <li>Created a git repository: <code class="highlighter-rouge">git init</code></li>
+  <li>Created a gh_pages branch.  <code class="highlighter-rouge">git checkout -b gh-pages</code> <em>Note: The github pages doc says the website can be created under master.  I had a heckuva time with this so I fell back to blindly following steps from YouTube videos, <a href="https://www.youtube.com/watch?v=fqFjuX4VZmU">like this one, Hosting on GitHub</a></em>.</li>
+  <li>Push local git to gitHub ```</li>
+  <li><code class="highlighter-rouge">git add .</code></li>
+  <li>Modify baseurl in _config.yml to be name of GitHub repo.</li>
+  <li>Created a new repository - <a href="">FitHome_web</a> without a Readme.md.</li>
+  <li>Went into Settings/Branches and set <code class="highlighter-rouge">gh-pages</code> as the default branch.  I did this to make sure I always went to this branch.</li>
+  <li>Push git adds to the gitHub repo <code class="highlighter-rouge">git push origin gh-pages</code>.</li>
+  <li>Turn on pages in Settings if not already on.  Make sure to use <code class="highlighter-rouge">gh-pages</code> branch.</li>
+</ul>
+
+
+
+        <hr>
+
+        <div class="clearfix">
+
+          
+          
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+    <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          
+          
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy; HappyDay 2019</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+
+<script src="/assets/scripts.js"></script>
+
+
+
+
+  </body>
+
+</html>
