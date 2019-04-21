@@ -14,6 +14,8 @@
 
   <meta name="description"
     content="I used GitHub pages to create the FitHome web site. GitHub has a nifty way to build a website that uses Jekyll. I’m new to Jekyll. So far there is alot to li...">
+  <!-- From article "relative paths in jekyll/a better workaround" https://ricostacruz.com/til/relative-paths-in-jekyll -->
+<!-- _includes/base.html -->
 
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
     type='text/css'>
@@ -23,13 +25,13 @@
 
   <!-- <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css"> -->
 
-  <link rel="stylesheet" href="/assets/vendor/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="../../../assets/vendor/fontawesome-free/css/all.min.css" | relative_url }}">
 
-  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="../../../assets/main.css" | relative_url }}">
   <link rel="canonical" href="http://localhost:4000/2019/04/18/In-Process.html">
   <link rel="alternate" type="application/rss+xml" title="FitHome"
     href="/feed.xml">
-    
+
   <!-- <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet"> -->
   <!-- <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script> -->
 
@@ -60,29 +62,31 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="/">Home</a>
+          <a class="nav-link" href="../../../" | relative_url }}">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/about">About</a>
+          <a class="nav-link" href="../../../about" | relative_url }}">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/tech">Tech</a>
+          <a class="nav-link" href="../../../tech" | relative_url }}">Tech</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/posts">Posts</a>
+          <a class="nav-link" href="../../../posts" | relative_url }}">Posts</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contact">Contact</a>
+          <a class="nav-link" href="../../../contact" | relative_url }}">Contact</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
 
-    <!-- Page Header -->
+    <!-- From article "relative paths in jekyll/a better workaround" https://ricostacruz.com/til/relative-paths-in-jekyll -->
+<!-- _includes/base.html -->
 
-<header class="masthead"
-  style="background-image: url('../../../../img/bg-post.jpg')">
+<!-- Page Header -->
+
+<header class="masthead" style="background-image: url('../../../img/bg-post.jpg')">
   
     <div class="overlay"></div>
     <div class="container">
@@ -133,8 +137,7 @@ GitHub has a nifty way to build a website that uses Jekyll. I’m new to Jekyll.
   <li><code class="highlighter-rouge">git add .</code></li>
   <li><code class="highlighter-rouge">git commit -m 'first commit'</code></li>
   <li><code class="highlighter-rouge">git remote add origin https://github.com/BitKnitting/Material_Design_Lite.git</code></li>
-  <li><code class="highlighter-rouge">git push -u origin master</code></li>
-  <li>Create gh-pages branch on GitHub repo.</li>
+  <li><code class="highlighter-rouge">git push -u origin gh-pages</code></li>
   <li><strong>TBD</strong> <em>Didn’t have to do this the second time I tried</em> Modify baseurl in _config.yml to be name of GitHub repo.</li>
   <li>Created a new repository - <a href="">FitHome_web</a> without a Readme.md.</li>
   <li>Went into Settings/Branches and set <code class="highlighter-rouge">gh-pages</code> as the default branch.  I did this to make sure I always went to this branch.</li>

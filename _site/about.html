@@ -8,12 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>
-    About Me - FitHome
+    About Us - FitHome
     
   </title>
 
   <meta name="description"
     content="Trim the Fat from your Electricity Bills.Help Combat Climate Change.">
+  <!-- From article "relative paths in jekyll/a better workaround" https://ricostacruz.com/til/relative-paths-in-jekyll -->
+<!-- _includes/base.html -->
 
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
     type='text/css'>
@@ -23,13 +25,13 @@
 
   <!-- <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css"> -->
 
-  <link rel="stylesheet" href="/assets/vendor/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="./assets/vendor/fontawesome-free/css/all.min.css" | relative_url }}">
 
-  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="./assets/main.css" | relative_url }}">
   <link rel="canonical" href="http://localhost:4000/about.html">
   <link rel="alternate" type="application/rss+xml" title="FitHome"
     href="/feed.xml">
-    
+
   <!-- <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet"> -->
   <!-- <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script> -->
 
@@ -60,38 +62,40 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="/">Home</a>
+          <a class="nav-link" href="./" | relative_url }}">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/about">About</a>
+          <a class="nav-link" href="./about" | relative_url }}">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/tech">Tech</a>
+          <a class="nav-link" href="./tech" | relative_url }}">Tech</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/posts">Posts</a>
+          <a class="nav-link" href="./posts" | relative_url }}">Posts</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contact">Contact</a>
+          <a class="nav-link" href="./contact" | relative_url }}">Contact</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
 
-    <!-- Page Header -->
+    <!-- From article "relative paths in jekyll/a better workaround" https://ricostacruz.com/til/relative-paths-in-jekyll -->
+<!-- _includes/base.html -->
 
-<header class="masthead"
-  style="background-image: url('/img/bg-about.jpg')">
+<!-- Page Header -->
+
+<header class="masthead" style="background-image: url('./img/bg-about.jpg')">
   
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
-            <h1>About Me</h1>
+            <h1>About Us</h1>
             
-            <span class="subheading">This is what I do.</span>
+            <span class="subheading">Why FitHome.</span>
             
           </div>
         </div>
@@ -103,17 +107,7 @@
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quisquam ut perspiciatis, repudiandae nulla animi iste
-    vel, praesentium repellendus molestias aliquid consequatur, earum rem qui error voluptates eius enim consequuntur!
-</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex alias, earum consectetur quia natus ducimus voluptate
-    explicabo, hic porro reprehenderit, quasi? Tenetur ipsum distinctio laboriosam perspiciatis officiis dolore,
-    architecto id.</p>
-
-<p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam inventore aspernatur repellendus
-    incidunt adipisci modi voluptates recusandae iste eligendi, repudiandae corporis quod aut, optio! Explicabo quaerat
-    unde voluptatem! Itaque, eum!</p>
+        <p class="mb-5">about</p>
 
       </div>
     </div>
