@@ -4,8 +4,7 @@ layout: default
 {% include base.html %}
 <!-- Page Header -->
 {% if page.background %}
-<header class="masthead"
-  style="background-image: url('/{{ page.background | prepend: {{base}} | replace: '//', '/' }}')">
+<header class="masthead" style="background-image: url('{{back}}/{{ page.background }}')">
   {% else %}
   <header class="masthead">
     {% endif %}
