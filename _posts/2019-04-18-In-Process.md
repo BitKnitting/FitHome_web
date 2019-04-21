@@ -2,7 +2,7 @@
 layout: post
 title: "Easy to make a web site"
 subtitle: "with GitHub pages"
-background: '../../../../img/bg-post.jpg'
+background: '/img/bg-post.jpg'
 ---
 I used GitHub pages to create the [FitHome web site](https://bitknitting.github.io/FitHome_web/).  
 GitHub has a nifty way to build a website that uses Jekyll. I'm new to Jekyll.  So far there is alot to like:
