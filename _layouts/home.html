@@ -4,6 +4,8 @@ layout: default
 {% include base.html %}
 <!-- Page Header -->
 {% if page.background %}
+<link rel="stylesheet" href="{{"{{base}}/{{page.background}} | relative_url }}">
+
 <header class="masthead" style="background-image: url('{{base}}/{{ page.background }}')">
   {% else %}
   <header class="masthead">
