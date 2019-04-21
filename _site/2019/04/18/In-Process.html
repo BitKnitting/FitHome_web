@@ -12,21 +12,38 @@
     
   </title>
 
-  <meta name="description" content="I used GitHub pages to create the FitHome web site. GitHub has a nifty way to build a website that uses Jekyll. I’m new to Jekyll. So far there is alot to li...">
+  <meta name="description"
+    content="I used GitHub pages to create the FitHome web site. GitHub has a nifty way to build a website that uses Jekyll. I’m new to Jekyll. So far there is alot to li...">
 
-  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
+    type='text/css'>
+  <link
+    href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+    rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css"> -->
 
   <link rel="stylesheet" href="/assets/vendor/fontawesome-free/css/all.min.css">
 
   <link rel="stylesheet" href="/assets/main.css">
   <link rel="canonical" href="http://localhost:4000/2019/04/18/In-Process.html">
-  <link rel="alternate" type="application/rss+xml" title="FitHome" href="/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="FitHome"
+    href="/feed.xml">
+    
+  <!-- <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet"> -->
+  <!-- <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script> -->
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
 </head>
-
 
   <body>
 
@@ -107,16 +124,19 @@ GitHub has a nifty way to build a website that uses Jekyll. I’m new to Jekyll.
 <ul>
   <li>Copied to my local repo directory.</li>
   <li>Changed the base URL to “/”.</li>
-  <li>Made sure it worked on Localhost:4000.</li>
+  <li>Made sure it worked on Localhost:4000.  <code class="highlighter-rouge">bundle exec jekyll serve</code></li>
   <li>Deleted the original .git directory (I found deleting Start Bootstrap’s repo the easiest way to link to my remote repo)</li>
   <li>Created a git repository: <code class="highlighter-rouge">git init</code></li>
   <li>Created a gh_pages branch.  <code class="highlighter-rouge">git checkout -b gh-pages</code> <em>Note: The github pages doc says the website can be created under master.  I had a heckuva time with this so I fell back to blindly following steps from YouTube videos, <a href="https://www.youtube.com/watch?v=fqFjuX4VZmU">like this one, Hosting on GitHub</a></em>.</li>
   <li>Push local git to gitHub ```</li>
   <li><code class="highlighter-rouge">git add .</code></li>
-  <li>Modify baseurl in _config.yml to be name of GitHub repo.</li>
+  <li><code class="highlighter-rouge">git commit -m 'first commit'</code></li>
+  <li><code class="highlighter-rouge">git remote add origin https://github.com/BitKnitting/Material_Design_Lite.git</code></li>
+  <li><code class="highlighter-rouge">git push -u origin master</code></li>
+  <li>Create gh-pages branch on GitHub repo.</li>
+  <li><strong>TBD</strong> <em>Didn’t have to do this the second time I tried</em> Modify baseurl in _config.yml to be name of GitHub repo.</li>
   <li>Created a new repository - <a href="">FitHome_web</a> without a Readme.md.</li>
   <li>Went into Settings/Branches and set <code class="highlighter-rouge">gh-pages</code> as the default branch.  I did this to make sure I always went to this branch.</li>
-  <li>Push git adds to the gitHub repo <code class="highlighter-rouge">git push origin gh-pages</code>.</li>
   <li>Turn on pages in Settings if not already on.  Make sure to use <code class="highlighter-rouge">gh-pages</code> branch.</li>
 </ul>
 

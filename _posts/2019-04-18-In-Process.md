@@ -16,16 +16,19 @@ _Note: I have already installed a local copy of Jekyll._
 I decided to start with [the clean blog template from Start Bootstrap](https://startbootstrap.com/themes/clean-blog-jekyll/).  The tree and template structure is already Jekyll aware.  It uses Bootstrap to make styling the site easier.  It has a look I like.
 * Copied to my local repo directory.  
 * Changed the base URL to "/".  
-* Made sure it worked on Localhost:4000.  
+* Made sure it worked on Localhost:4000.  ```bundle exec jekyll serve```
 * Deleted the original .git directory (I found deleting Start Bootstrap's repo the easiest way to link to my remote repo)
 * Created a git repository: ```git init``` 
 * Created a gh_pages branch.  ```git checkout -b gh-pages``` _Note: The github pages doc says the website can be created under master.  I had a heckuva time with this so I fell back to blindly following steps from YouTube videos, [like this one, Hosting on GitHub](https://www.youtube.com/watch?v=fqFjuX4VZmU)_.  
 * Push local git to gitHub ```
 * ```git add .```
-* Modify baseurl in _config.yml to be name of GitHub repo.
+* ```git commit -m 'first commit'```
+* ```git remote add origin https://github.com/BitKnitting/Material_Design_Lite.git```
+* ```git push -u origin master```  
+* Create gh-pages branch on GitHub repo.
+* __TBD__ _Didn't have to do this the second time I tried_ Modify baseurl in _config.yml to be name of GitHub repo.
 * Created a new repository - [FitHome_web]() without a Readme.md.   
 * Went into Settings/Branches and set ```gh-pages``` as the default branch.  I did this to make sure I always went to this branch.  
-* Push git adds to the gitHub repo ```git push origin gh-pages```.
 * Turn on pages in Settings if not already on.  Make sure to use ```gh-pages``` branch.
 
  
