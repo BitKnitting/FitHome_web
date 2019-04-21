@@ -1,6 +1,6 @@
 ---
 layout: home
-background: 'img/bg-index.jpg'
+background: '/img/bg-index.jpg'
 ---
 
 <button class="mdc-button">Button</button>
