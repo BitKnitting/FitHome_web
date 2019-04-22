@@ -11,12 +11,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>
-    Posts - FitHome
+    More on setting up the website - FitHome
     
   </title>
 
   <meta name="description"
-    content="Trim the Fat from your Electricity Bills.Help Combat Climate Change.">
+    content="Wow. Jekyll + GitHub pages + Bootstrap 4 (and maybe material design…not sure yet!) is a powerful combo. The biggest challenge I have had is getting links wor...">
   <!-- From article "relative paths in jekyll/a better workaround" https://ricostacruz.com/til/relative-paths-in-jekyll -->
 <!-- _includes/base.html -->
 
@@ -29,7 +29,7 @@
   <link rel="stylesheet"
     href='/FitHome_web/assets/vendor/fontawesome-free/css/all.min.css'>
   <link rel="stylesheet" href='/FitHome_web/assets/main.css'>
-  <link rel="canonical" href="http://localhost:4000/FitHome_web/posts-test.old">
+  <link rel="canonical" href="http://localhost:4000/FitHome_web/2019/04/22/In-More-on-setting-up-the-website.html">
   <link rel="alternate" type="application/rss+xml" title="FitHome"
     href="/FitHome_web/feed.xml">
 
@@ -55,7 +55,7 @@
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
                 <div class="page-heading">
-                    <h1>Posts</h1>
+                    <h1>More on setting up the website</h1>
                     
                 </div>
             </div>
@@ -98,38 +98,75 @@
 
 
 
-  <!-- From article "relative paths in jekyll/a better workaround" https://ricostacruz.com/til/relative-paths-in-jekyll -->
-<!-- _includes/base.html -->
-
-<!-- Page Header -->
-
-<header class="masthead" style="background-image: url('./img/bg-post.jpg')">
-  
+  <!-- post.html -->
+<!-- masthead.html -->
+<header class="masthead"
+    style="background-image: url('/FitHome_web/img/bg-post.jpg')">
     <div class="overlay"></div>
     <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="page-heading">
-            <h1>Posts</h1>
-            
-          </div>
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="page-heading">
+                    <h1>More on setting up the website</h1>
+                    
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </header>
+</header>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+
+      <p>Wow.  Jekyll + GitHub pages + Bootstrap 4 (and maybe material design…not sure yet!) is a powerful combo.  The biggest challenge I have had is getting links working when running a local copy AND github pages.</p>
+<h1 id="what-makes-getting-links-right-difficult">What Makes Getting Links Right Difficult</h1>
+<p>The challenge with getting links right include:</p>
+<ul>
+  <li>Beginning knowledge to the intricate world of absolute/relative and perhaps other paths.</li>
+  <li>Unique characteristics of how Jekyll / GitHub pages interact.
+    <h2 id="the-baseurl">The BaseURL</h2>
+    <p>The AHA! Light turned on for me after reading <a href="https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/">Parker’s article “<em>Clearing Up Confusion Around baseurl–Again</em>”</a>
+I used GitHub pages to create the <a href="https://bitknitting.github.io/FitHome_web/">FitHome web site</a>.</p>
+  </li>
+</ul>
+
+<p>As Parker points out: <em>TL;DR: Use baseurl when you are building a site that doesn’t sit at the root of the domain.</em></p>
+
+<p>so I put this in _config.yml: <code class="highlighter-rouge">baseurl: /FitHome_web</code>
+where FitHome_web is the GitHub project for the website.<br />
+The local server (set up after running <code class="highlighter-rouge">bundle exec jekyll serve</code>) is found at <code class="highlighter-rouge">localhost:4000/FitHome_web/</code></p>
+
+<p><strong>DO NOT FORGET THE TRAILING SLASH</strong> as I kept doing…sadly…</p>
+<h2 id="building-the-link">Building The Link</h2>
+<p><a href="_includes/head.html">head.html</a> shows a line that tells the web site both locally and on the https://bitknitting.github.io/FitHome_web/ servier where the main.css file is located.</p>
+
+<p><code class="highlighter-rouge"> &lt;link rel="stylesheet" href='/FitHome_web/assets/main.css'&gt;</code></p>
+
+<p>Now - this is new to me but seems very cool - Jekyll implements <em>Liquid Filters</em>.  I like to know where this stuff comes from and found <a href="https://help.shopify.com/en/themes/liquid">shopify started all this and then open sourced</a>.  Info for the two Liquid Filters used above can be found in <a href="https://jekyllrb.com/docs/liquid/filters/">Jekyll’s documenation</a>. The href resolves to <code class="highlighter-rouge">/FitHome_web/assets/main.css</code>.  If there was a <code class="highlighter-rouge">//</code>, this would be replaced with a <code class="highlighter-rouge">/</code>.<br />
+<a href="_includes/navbar.html">navbar.html</a> also makes use of Jekyll’s implementation of Liquid Filters to create a url:</p>
+
+<p><code class="highlighter-rouge">href='/FitHome_web/tech'</code></p>
+
+
+
+      <hr>
+
+      <div class="clearfix">
 
         
-
-<!-- Pager -->
-
+        <a class="btn btn-primary float-left"
+          href="/FitHome_web/2019/04/18/In-Process.html" data-toggle="tooltip"
+          data-placement="top" title="Easy to make a web site">&larr; Previous<span class="d-none d-md-inline">
+            Post</span></a>
+        
+        
 
       </div>
+
     </div>
   </div>
+</div>
 
   <!-- footer.html -->
 

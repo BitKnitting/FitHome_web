@@ -1,6 +1,9 @@
 ---
 layout: home
 background: '/img/bg-index.jpg'
+title: FitHome
+description: Trim the Fat from your Electricity Bills.<br>Help Combat Climate Change.
+
 ---
 
 <button class="mdc-button">Button</button>

@@ -1,4 +1,4 @@
-<!-- Navigation -->
+<!-- navbar.html -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
   <div class="container">
     <a class="navbar-brand" href="{{"/" | relative_url }}">{{ site.title | escape }}</a>
@@ -8,22 +8,23 @@
       Menu
       <i class="fa fa-bars"></i>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="{{"{{base}}/" | relative_url }}">Home</a>
+          <a class="nav-link" href='{{ '/' | prepend: site.baseurl | replace: '//', '/' }}'>Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{"{{base}}/about" | relative_url }}">About</a>
+          <a class="nav-link" href='{{ '/about' | prepend: site.baseurl | replace: '//', '/' }}'>About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{"{{base}}/tech" | relative_url }}">Tech</a>
+          <a class="nav-link" href='{{ '/tech' | prepend: site.baseurl | replace: '//', '/' }}'>Tech</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{"{{base}}/posts" | relative_url }}">Posts</a>
+          <a class="nav-link" href='{{ '/posts' | prepend: site.baseurl | replace: '//', '/' }}'>Posts</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{"{{base}}/contact" | relative_url }}">Contact</a>
+          <a class="nav-link" href='{{ '/contact' | prepend: site.baseurl | replace: '//', '/' }}'>Contact</a>
         </li>
       </ul>
     </div>
