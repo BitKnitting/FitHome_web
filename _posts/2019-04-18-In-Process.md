@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Easy to make a web site"
-subtitle: "with GitHub pages"
+title: ""
+description: "Making a website with GitHub pages"
 background: '/img/bg-post.jpg'
 ---
 I used GitHub pages to create the [FitHome web site](https://bitknitting.github.io/FitHome_web/).  

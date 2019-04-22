@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "More on setting up the website"
+title: ""
+description: Getting the URL paths right
 background: '/img/bg-post.jpg'
 ---
 Wow.  Jekyll + GitHub pages + Bootstrap 4 (and maybe material design...not sure yet!) is a powerful combo.  The biggest challenge I have had is getting links working when running a local copy AND github pages.
