@@ -2,8 +2,11 @@ title:             FitHome
 email:             your-email@example.com
 description:       Trim the Fat from your Electricity Bills.<br>Help Combat Climate Change.
 author:            HappyDay
-baseurl:           ""
-url:               https://bitknitting.github.io
+# See Parker's explanation http://bit.ly/2IEENuv
+# http://localhost:4000/FitHome_web/
+# Works on GitHub.
+baseurl:           "/FitHome_web"
+
 
 # Build settings
 markdown:          kramdown
