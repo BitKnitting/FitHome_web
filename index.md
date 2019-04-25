@@ -12,16 +12,19 @@ description: Trim the Fat from your Electricity Bills.<br>Help Combat Climate Ch
 <hr>
     
 ## FitHome App
-The app gives you insight into your electricity use and guides you through easy tasks you can do to save electricity.
+The app gives you insight into your electricity use.  Guiding you through easy tasks you can do to save electricity.
+<br>
 <div class="container-fluid">
   <div class="row">
     <!-- bootstrap uses 12 cols.  I want the carousel to be positioned in the middle. -->
-    <div class="col-2 offset-4"> 
+    <div class="col-4 offset-2"> 
       {% include carousel.html %}
     </div> 
         {% include home_card.html %}
   </div>
 </div>
+<br>
+<hr>
 ## FitHome Monitor 
 A walk through of the monitor.  Installation, what it measures. 
 
