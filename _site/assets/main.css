@@ -231,6 +231,9 @@ header.masthead {
   .post-preview > a > .post-title {
     font-size: 36px; } }
 
+.post-entry > h1 {
+  color: blue; }
+
 .floating-label-form-group {
   font-size: 14px;
   position: relative;

@@ -4,8 +4,9 @@ title: ""
 description: Getting the URL paths right
 background: '/img/bg-post.jpg'
 ---
+<link rel="stylesheet" href='{{ '/assets/post-entry-style.css' | prepend: site.baseurl | replace: '//', '/' }}'>
 Wow.  Jekyll + GitHub pages + Bootstrap 4 (and maybe material design...not sure yet!) is a powerful combo.  The biggest challenge I have had is getting links working when running a local copy AND github pages.
-# What Makes Getting Links Right Difficult
+# The Challenge
 The challenge with getting links right include:  
 * Beginning knowledge to the intricate world of absolute/relative and perhaps other paths.  
 * Unique characteristics of how Jekyll / GitHub pages interact.

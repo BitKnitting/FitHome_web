@@ -4,6 +4,9 @@ title: ""
 description: "Making a website with GitHub pages"
 background: '/img/bg-post.jpg'
 ---
+
+<link rel="stylesheet" href='{{ '/assets/post-entry-style.css' | prepend: site.baseurl | replace: '//', '/' }}'>
+# Building the FitHome website
 I used GitHub pages to create the [FitHome web site](https://bitknitting.github.io/FitHome_web/).  
 GitHub has a nifty way to build a website that uses Jekyll. I'm new to Jekyll.  So far there is alot to like:
 * I can write pages in markdown.
@@ -12,7 +15,7 @@ GitHub has a nifty way to build a website that uses Jekyll. I'm new to Jekyll.  
 * A local web site can run that automagically updates when changes are made to the file (like Flask).  
   
 _Note: I have already installed a local copy of Jekyll._
-#### Steps
+# Steps
 I decided to start with [the clean blog template from Start Bootstrap](https://startbootstrap.com/themes/clean-blog-jekyll/).  The tree and template structure is already Jekyll aware.  It uses Bootstrap to make styling the site easier.  It has a look I like.
 * Copied to my local repo directory.  
 * Changed the base URL from "/startbootstrap-clean-blog-jekyll" to "".  

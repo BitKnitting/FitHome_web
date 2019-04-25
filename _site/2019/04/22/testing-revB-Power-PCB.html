@@ -16,34 +16,38 @@
   </title>
 
   <meta name="description"
-    content="Power PCB GitHub Test 1 - VP0 ~= 135mV Note: Why 135mV is discussed within the Power PCB’s GitHub Readme file I soldered just enough of the components to tak...">
-  <!-- From article "relative paths in jekyll/a better workaround" https://ricostacruz.com/til/relative-paths-in-jekyll -->
-<!-- _includes/base.html -->
+    content="">
 
+  <!-- Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
     type='text/css'>
   <link
     href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
     rel='stylesheet' type='text/css'>
-
+  <link href='https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900' rel='stylesheet' type='text/css'>
+  <!-- Font Awesome -->
   <link rel="stylesheet"
     href='/FitHome_web/assets/vendor/fontawesome-free/css/all.min.css'>
+  <!-- Local Stuff -->
   <link rel="stylesheet" href='/FitHome_web/assets/main.css'>
   <link rel="canonical" href="http://localhost:4000/FitHome_web/2019/04/22/testing-revB-Power-PCB.html">
   <link rel="alternate" type="application/rss+xml" title="FitHome"
     href="/FitHome_web/feed.xml">
 
-
-  <!-- bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  <!-- bootstrap css -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- CAREFUL: ORDER IS IMPORTANT.  JQUERY, POPPER, and then BOOTSTRAP -->
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <!-- popper -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script>
+  <!-- bootstrap js -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-
 </head>
 
 <body>
@@ -55,7 +59,7 @@
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
                 <div class="page-heading">
-                    <h1></h1>
+                    <h1 class="text-light"></h1>
                     
                     <span class="subheading">Testing VP0 of Rev B Power PCB</span>
                     
@@ -106,13 +110,17 @@
   <div class="row">
     <div class="col-lg-8 col-md-10 mx-auto">
 
-      <p><a href="https://github.com/BitKnitting/FitHome_Power_PCB">Power PCB GitHub</a></p>
+      <link rel="stylesheet" href="/FitHome_web/assets/post-entry-style.css" />
+
+<h1 id="reference">Reference</h1>
+
+<p><a href="https://github.com/BitKnitting/FitHome_Power_PCB">Power PCB GitHub</a></p>
 <h1 id="test-1---vp0--135mv">Test 1 - VP0 ~= 135mV</h1>
 <p><em>Note: Why 135mV is discussed within the Power PCB’s GitHub Readme file</em><br />
 I soldered just enough of the components to take a reading.</p>
 <h2 id="wire-colors">Wire colors</h2>
 <p>I always forget which colors are power and which are ground on a cable.  So I copy around:</p>
-<h2 id="color-coding-of-power-lines-in-power-cord">Color coding of power lines in power cord</h2>
+<h2 id="power-cord-color-coding">Power Cord Color Coding</h2>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Function 	| label 	| color 
 |----------	|-------	|-------
 | Neutral  	| N     	| white 
@@ -125,10 +133,14 @@ I soldered just enough of the components to take a reading.</p>
 <p><img src="/FitHome_web/img/revB_Power_PCB/vp0_test_board_front.png" alt="board front" /></p>
 <h3 id="back">Back</h3>
 <p><img src="/FitHome_web/img/revB_Power_PCB/vp0_test_board_back.png" alt="board back" /></p>
+
+<p>There are not many components that need to be soldered to get to this point.</p>
+
+<p>The holes for the connector need to have a larger dimension.</p>
 <h2 id="results">Results</h2>
 <p>Ooh. Yippee!  <br />
 <img src="/FitHome_web/img/vp0.bmp" alt="VP0 under scope" /><br />
-VP0 = 143. Without knowing better, I’m saying close enough…</p>
+VP0 = 143. I’m saying close enough…</p>
 
 
       <hr>
@@ -141,6 +153,10 @@ VP0 = 143. Without knowing better, I’m saying close enough…</p>
           data-placement="top" title="">&larr; Previous<span class="d-none d-md-inline">
             Post</span></a>
         
+        
+        <a class="btn btn-primary float-right" href="/FitHome_web/2019/04/23/testing-revB-Power-PCB.html"
+          data-toggle="tooltip" data-placement="top" title="">Next<span class="d-none d-md-inline">
+            Post</span> &rarr;</a>
         
 
       </div>
