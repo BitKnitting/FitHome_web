@@ -7,3 +7,9 @@ h1,h2 {
 h2 {
     font-size: 1.25rem;
 }
+a:link {
+    color: #3FB1B7;
+    background-color: transparent;
+    text-decoration: none;
+    text-emphasis-color: #3FB1B7;
+}
