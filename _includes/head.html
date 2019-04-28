@@ -13,7 +13,11 @@
 
   <meta name="description"
     content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-
+  <!-- favicon -->
+  <!-- generated favicon on this site: https://realfavicongenerator.net/ -->
+  <!-- Stackoverflow had a Q/A about favicons in jekyll: http://bit.ly/2WcaKx2 -->
+  <link rel="shortcut icon" type="image/x-icon"
+    href='{{ '/img/icon/favicon.ico' | prepend: site.baseurl | replace: '//', '/' }}'>
   <!-- Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
     type='text/css'>
