@@ -9,12 +9,16 @@ subdescription: Take the 15% Challenge.
 <link rel="stylesheet" href='{{ '/assets/post-entry-style.css' | prepend: site.baseurl | replace: '//', '/' }}'>
 
 # FitHome is a Personal Trainer for lowering your electricity consumption.  
-Save around $200 per year - or more - on your electricity bill.<br>    
-Contribute to saving lives.  [If all households in the US saved at least 15%](https://aceee.org/research-report/h1801):  
+__Save $200/year - or more -__ on your electricity bill with no changes to your lifestyle.<br>    
+__Save lives__.  [If all households in the US saved at least 15%](https://aceee.org/research-report/h1801):  
   * 6 lives would be saved per day.
-  * There would be 30,000 fewer asthma episodes.    
+  * There would be 30,000 fewer asthma episodes.  
 
-It's all about <a href="#challenge">the 15% Challenge!</a>
+__Save the planet__.  Using less electricity makes it easier for renewable energy sources to meet our electricity needs.  
+
+## Get Involved    
+
+Take <a href="#challenge">the 15% Challenge!</a>
 <br>  
 <hr>
 # FitHome Experience
@@ -49,4 +53,13 @@ The monitor reads the amount of electricity your devices are using and sends thi
 <br>
 <hr>
 # 15% One Month Challenge
-<a id="challenge">TBD
+<a id="challenge">
+* Stop wasting electricity and gain knowledge of the effects you make by doing so.<br>
+* Takes one month.<br>
+* Requires little thought and work on your part.  
+  * Shows you how much electricity your devices are using.<br>
+  * Guides you through simple actions to take to reduce your electricity by at least 15%.<br>
+* Installation and unistallation of the monitor is done by an electrician.<br>  
+* One time fee of $59.50.
+
+
