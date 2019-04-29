@@ -6,7 +6,7 @@ description: Trim the Fat from your Electricity Bills.<br><br>Help Combat Climat
 subdescription: Take the 15% Challenge.
 
 ---
-<link rel="stylesheet" href='{{ '/assets/post-entry-style.css' | prepend: site.baseurl | replace: '//', '/' }}'>
+<link rel="stylesheet" href='{{ '/assets/page-style.css' | prepend: site.baseurl | replace: '//', '/' }}'>
 
 # FitHome is a Personal Trainer for lowering your electricity consumption.  
 __Save $200/year - or more -__ on your electricity bill with no changes to your lifestyle.<br>    

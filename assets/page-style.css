@@ -1,0 +1,15 @@
+h1,h2 {
+    color: #3FB1B7;
+    font-family:'Roboto';
+    font-weight: regular;
+    font-size: 1.75rem;
+}
+h2 {
+    font-size: 1.25rem;
+}
+a:link {
+    color: #3FB1B7;
+    background-color: transparent;
+    text-decoration: none;
+    text-emphasis-color: #3FB1B7;
+}
