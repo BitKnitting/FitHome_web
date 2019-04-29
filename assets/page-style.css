@@ -1,11 +1,16 @@
-h1,h2 {
+h1,h2,h3{
     color: #3FB1B7;
     font-family:'Roboto';
     font-weight: regular;
     font-size: 1.75rem;
 }
 h2 {
-    font-size: 1.25rem;
+    font-size: 1.3rem;
+    text-indent: 2%;
+}
+h3 {
+    font-size: 1.2rem;
+    text-indent: 4%;
 }
 a:link {
     color: #3FB1B7;

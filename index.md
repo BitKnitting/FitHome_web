@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 background: '/img/bg-index.jpg'
 title: FitHome
 description: Trim the Fat from your Electricity Bills.<br><br>Help Combat Climate Change.
