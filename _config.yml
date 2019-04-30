@@ -5,7 +5,8 @@ author:            HappyDay
 # See Parker's explanation http://bit.ly/2IEENuv
 # http://localhost:4000/FitHome_web/
 # Works on GitHub.
-baseurl:           "/FitHome_web"
+# Do not use if have a CNAME
+baseurl:           ""
 
 
 # Build settings
