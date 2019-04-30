@@ -62,4 +62,6 @@ The monitor reads the amount of electricity your devices are using and sends thi
 * Installation and unistallation of the monitor is done by an electrician.<br>  
 * One time fee of $59.50.
 
+{% include notify.html %}
+
 
