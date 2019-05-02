@@ -15,8 +15,8 @@ We are not interested in making or losing money.  We want to make an impact.
   
 Our contribution towards 100% clean and healthy energy focuses on conserving electricity.  We figure the cleanest and healthiest electricity is the electricity we don't use.  If we all conserve, it will be easier to get to 100% clean and healthy energy.
 # Become a 15%er 
-The FitHome experience is successful if the participants use 15% less electricity than they did before participating.  Consuming 15% less electricity is a reachable goal.  After all, [folks in Germany use 54% less electricity than folks in the US](https://en.wikipedia.org/wiki/List_of_countries_by_electricity_consumption). Of course, there could be many reasons for this difference perhaps it is because:  
-* less air conditioning and heating is used.  [The temperatures are not that different.  Perhaps us folks in the Seattle area use more air conditioning because there are 306 more hours of sunlight?](http://www.seattle.climatemps.com/vs/berlin.php)  
+The FitHome experience is successful if the participants use 15% less electricity than they did before participating.  Consuming 15% less electricity is a reachable goal.  After all, [folks in Germany use 54% less electricity than folks in the US](https://en.wikipedia.org/wiki/List_of_countries_by_electricity_consumption){:target="_blank"}. Of course, there could be many reasons for this difference perhaps it is because:  
+* less air conditioning and heating is used.  [The temperatures are not that different.  Perhaps us folks in the Seattle area use more air conditioning because there are 306 more hours of sunlight?](http://www.seattle.climatemps.com/vs/berlin.php){:target="_blank"} 
 * houses are constructed to be more energy efficient. 
 * houses are better insulated.  
 * more Germans hang their clothes up to dry instead of using a dryer.  
@@ -26,16 +26,17 @@ The FitHome experience is successful if the participants use 15% less electricit
 But still given the 54% difference, we should be able to save 15%.  When we took the FitHome challenge, we ended up saving 40%.  With no change to our lifestyle.
 
 ## Healthier Living
-[The ACEE Report, _Saving Energy, Saving Lives_](https://aceee.org/research-report/h1801) pointed out...  
+[The ACEE Report, _Saving Energy, Saving Lives_](https://aceee.org/research-report/h1801){:target="_blank"} pointed out...  
 _Nationwide, __reducing electricity consumption by 15%__ for a single year would result in_:  
 * More than six lives saved each day
 * Up to $20 billion in avoided health harms
 * Nearly 30,000 fewer asthma episodes  
 
 ## Save Money
-IF you use 15% less electricity, you would save $200 a year.
+<a id="save_money">
+If you use 15% less electricity, you would save $200 a year.
 ### Electricity cost breakdown
-In our city (Kirkland, Washington), there are [38,093 housing units](https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?src=CF).  While the weather varies quite a bit between Eastern and Western Washington, for this discussion we'll use [the EIA's info on the average monthly amount of electricity consumed](https://www.eia.gov/electricity/sales_revenue_price/pdf/table5_a.pdf) as 955kWh.  
+In our city (Kirkland, Washington), there are [38,093 housing units](https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml){:target="_blank"}.  While the weather varies quite a bit between Eastern and Western Washington, for this discussion we'll use [the EIA's info on the average monthly amount of electricity consumed](https://www.eia.gov/electricity/sales_revenue_price/pdf/table5_a.pdf){:target="_blank"} as 955kWh.  
 
 Our electricity cost is (at the time of this writing):  
 * $.10 for the first 600 kWh  
@@ -57,7 +58,7 @@ If a household starts using 15% less electricity, their electricity cost is roug
 ```
 a savings of $18.84 / month or $206 / year.  
 # Together we can Help Combat Climate Change
-The 38,093 households in Kirkland use 36,378,815 kWh/month (38,093 * 955). Or 436,545,780 kWh / year of electricity.  That is 340,288 Tons of greenhouse gas emissions (using the [Greenhouse Gas Equivalencies Calculator](https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator)).  This is equivalent to the amount of CO2 2,505 acres of forests can sequester.  
+The 38,093 households in Kirkland use 36,378,815 kWh/month (38,093 * 955). Or 436,545,780 kWh / year of electricity.  That is 340,288 Tons of greenhouse gas emissions (using the [Greenhouse Gas Equivalencies Calculator](https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator){:target="_blank"}).  This is equivalent to the amount of CO2 2,505 acres of forests can sequester.  
   
 __If we all used 15% less electricity, we'd be using  65,481,867 kWh less per year.  Just 15% means we decrease the amount of greenhouse gas emissions by 51,043 Tons.__
 

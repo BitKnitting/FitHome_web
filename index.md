@@ -9,9 +9,9 @@ notify: true
 <link rel="stylesheet" href='{{ '/assets/page-style.css' | prepend: site.baseurl | replace: '//', '/' }}'>
 
 # Save Money   
-Save $200/year - or more on your electricity bill with no changes to your lifestyle.  
+<a href='{{ '/about/#save_money' | prepend: site.baseurl | replace: '//', '/' }}' target="_blank">Save $200/year - or more </a> on your electricity bill with no changes to your lifestyle.  
 # Save lives
-[If all households in the US saved at least 15%](https://aceee.org/research-report/h1801):  
+[If all households in the US saved at least 15%](https://aceee.org/research-report/h1801){:target="_blank"}:  
   * 6 lives would be saved per day.
   * There would be 30,000 fewer asthma episodes.  
 
