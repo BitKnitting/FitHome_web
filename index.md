@@ -27,10 +27,13 @@ The app gives you insight into your electricity use.  Guiding you through easy t
 <div class="container-fluid">
   <div class="row">
     <!-- bootstrap uses 12 cols.  I want the carousel to be positioned in the middle. -->
-    <div class="col-5 offset-1"> 
+
+    <div class="col-md-5"> 
       {% include app-carousel.html %}
     </div> 
-        {% include app_card.html %}
+     <div class="col-md-7"> 
+      {% include app_card.html %}
+     </div> 
   </div>
 </div>
 <br>
@@ -41,10 +44,12 @@ The monitor reads the amount of electricity your devices are using and sends thi
 <div class="container-fluid">
   <div class="row">
     <!-- bootstrap uses 12 cols.  I want the carousel to be positioned in the middle. -->
-    <div class="col-5 offset-1"> 
+    <div class="col-md-5 "> 
       {% include monitor-carousel.html %}
     </div> 
+    <div class="col-md-7">
         {% include monitor_card.html %}
+    </div>    
   </div>
 </div>
 <br>
