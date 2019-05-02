@@ -8,16 +8,19 @@
                 <div class="page-heading">
                     <h1 class="text-light">{{ page.title }}</h1>
                     {% if page.description %}
-                    <br>
                     <span class="subheading">{{ page.description }}</span>
                     {% endif %}
                     {% if page.subdescription %}
-                    <br>
                     <span class="subheading">{{ page.subdescription }}</span>
                     {% endif %}
+                    <!-- The only page that has this is the home/index page. -->
+                    {% if page.notify %}
+                    <a href="#challenge" role="button" class="btn btn-primary mt-2">Join us in the 15%
+                        challenge.</a>
+                    {% endif %}
+
                 </div>
             </div>
         </div>
-        {% include notify.html %}
     </div>
 </header>

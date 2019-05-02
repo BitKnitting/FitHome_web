@@ -134,7 +134,6 @@ img::-moz-selection {
         transform: translate3d(0, 100%, 0); } }
 
 header.masthead {
-  margin-bottom: 50px;
   background: no-repeat center center;
   background-color: #868e96;
   background-attachment: scroll;
@@ -154,13 +153,13 @@ header.masthead {
   header.masthead .page-heading,
   header.masthead .post-heading,
   header.masthead .site-heading {
-    padding: 200px 0 150px;
+    padding: 120px 0 150px;
     color: white; }
     @media only screen and (min-width: 768px) {
       header.masthead .page-heading,
       header.masthead .post-heading,
       header.masthead .site-heading {
-        padding: 200px 0; } }
+        padding: 120px 0; } }
   header.masthead .page-heading,
   header.masthead .site-heading {
     text-align: center; }

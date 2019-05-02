@@ -2,26 +2,23 @@
 layout: page
 background: '/img/bg-index.jpg'
 title: FitHome
-description: Trim the Fat from your Electricity Bills.<br><br>Help Combat Climate Change.
-subdescription: Take the 15% Challenge.
+description: A Personal Trainer for Lowering Electricity Consumption.
+notify: true
 
 ---
 <link rel="stylesheet" href='{{ '/assets/page-style.css' | prepend: site.baseurl | replace: '//', '/' }}'>
 
-# FitHome is a Personal Trainer for lowering your electricity consumption.  
-__Save $200/year - or more -__ on your electricity bill with no changes to your lifestyle.<br>    
-__Save lives__.  [If all households in the US saved at least 15%](https://aceee.org/research-report/h1801):  
+# Save Money   
+Save $200/year - or more on your electricity bill with no changes to your lifestyle.  
+# Save lives
+[If all households in the US saved at least 15%](https://aceee.org/research-report/h1801):  
   * 6 lives would be saved per day.
   * There would be 30,000 fewer asthma episodes.  
 
-__Save the planet__.  Using less electricity makes it easier for renewable energy sources to meet our electricity needs.  
-
-## Get Involved    
-
-Take <a href="#challenge">the 15% Challenge!</a>
-<br>  
+# Combat Climate Change  
+Using less electricity makes it easier for renewable energy sources to meet our electricity needs.  
 <hr>
-# FitHome Experience
+# The FitHome Experience
 The FitHome experience includes...
 
 ## FitHome App
@@ -52,16 +49,32 @@ The monitor reads the amount of electricity your devices are using and sends thi
 </div>
 <br>
 <hr>
-# 15% One Month Challenge
+# The 15% One Month Challenge
 <a id="challenge">
-* Stop wasting electricity and gain knowledge of the effects you make by doing so.<br>
-* Takes one month.<br>
-* Requires little thought and work on your part.  
-  * Shows you how much electricity your devices are using.<br>
-  * Guides you through simple actions to take to reduce your electricity by at least 15%.<br>
-* Installation and unistallation of the monitor is done by an electrician.<br>  
-* One time fee of $59.50.
-
-{% include notify.html %}
+* Takes one month for a one time fee of $59.50.
+* Electrician installs and uninstalls the monitor.
+* App shows you:  
+  * How much electricity your are using.  
+  * The simplest and most effective activities to lower your electricity use with no change to your lifestyle.  
+  * The impact your savings is having on your wallet and your environment.
+* The experience makes you mindful of the positive impact you can have.  
+<hr>
+Please let us inform you when FitHome is ready.  
+<form method="POST" action="https://formspree.io/sparky@fithome.life">
+  <div class="control-group">
+    <div class="form-group floating-label-form-group controls">
+      <label>Email Address</label>
+      <input type="email" name="email" class="form-control" placeholder="Email Address" id="email" required
+        data-validation-required-message="Please enter your email address.">
+      <p class="help-block text-danger"></p>
+    </div>
+  </div>
+  <div id="success"></div>
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary" id="sendMessageButton">Let me know</button>
+  </div>
+  <input type="text" name="_gotcha" style="display:none" />
+</form>
+<!-- <button type="submit" class="btn btn-primary mt-2 text-justify-center">Let me know</button> -->
 
 
