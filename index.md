@@ -2,12 +2,11 @@
 layout: page
 background: '/img/bg-index.jpg'
 title: FitHome
-description: A Personal Trainer for Lowering Electricity Consumption.
+description: The Lazy Person's Solution to Saving Electricity.
 notify: true
 
 ---
 <link rel="stylesheet" href='{{ '/assets/page-style.css' | prepend: site.baseurl | replace: '//', '/' }}'>
-
 # Save Money   
 <a href='{{ '/about/#save_money' | prepend: site.baseurl | replace: '//', '/' }}' target="_blank">Save $200/year - or more </a> on your electricity bill with no changes to your lifestyle.  
 # Save lives
@@ -19,10 +18,10 @@ notify: true
 Using less electricity makes it easier for renewable energy sources to meet our electricity needs.  
 <hr>
 # The FitHome Experience
-The FitHome experience includes...
+The FitHome experience walks you through exactly what you should do to lower your electricity use.  No need to plow through the random results of Google searches then sort out and try what "seems to" make sense.  We think of the FitHome experience as a Home health Personal Trainer that comes to your house for a month.  During that time, you easily lower your electricity and receive immediate feedback on how well you are doing.
 
 ## FitHome App
-The app gives you insight into your electricity use.  Guiding you through easy tasks you can do to save electricity.
+  Lets you know how much electricity you are using and how much electricity you are saving.  Know how much money you are saving.  Know how much impact your savings are having on cleaning up our air.
 <br>
 <div class="container-fluid">
   <div class="row">
