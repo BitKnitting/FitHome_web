@@ -8,7 +8,7 @@ notify: true
 ---
 <link rel="stylesheet" href='{{ '/assets/page-style.css' | prepend: site.baseurl | replace: '//', '/' }}'>
 <hr>
-Using [a Smartphone app](#app) and [energy monitor](#monitor), you will get personalized, simple guidance on what to do to lower your electricity use.  You will receive immediate feedback on how well you are doing, including the amount of money you are saving and how much better the air is because of your efforts.  No need to plow through the random results of Google searches then sort out and try what "seems to" make sense.  We think of the FitHome experience as a Home health Personal Trainer that comes to your house for a month.  During that time, you easily lower your electricity and receive immediate feedback on how well you are doing.  
+  Think of the FitHome experience as a Home health Personal Trainer that comes to your house for a month. Through [a smartphone app](#app) and [energy monitor](#monitor), you will get personalized, simple guidance on the easiest way to lower your electricity use.  You will receive immediate feedback on how well you are doing, including the amount of money you are saving and how much better the air is because of your efforts.  No need to plow through the random results of Google searches then sort out and try what "seems to" make sense.   
 # Save Money   
 <a href='{{ '/about/#save_money' | prepend: site.baseurl | replace: '//', '/' }}' target="_blank">Save $200/year - or more </a> on your electricity bill with no changes to your lifestyle.  
 # Save lives
