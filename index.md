@@ -8,7 +8,7 @@ notify: true
 ---
 <link rel="stylesheet" href='{{ '/assets/page-style.css' | prepend: site.baseurl | replace: '//', '/' }}'>
 <hr>
-  It's amazing how much electricity we waste yet don't have any idea how we can use less with no change to our lifestyle.  Saving electricity means saving money and making a positive impact on climate change.  Think of the FitHome experience as a Home health Personal Trainer that comes to your house for a month. Through [a smartphone app](#app) and [energy monitor](#monitor), you will get personalized, simple guidance on the easiest way to lower your electricity use.  You will receive immediate feedback on how well you are doing, including the amount of money you are saving and how much better the air is because of your efforts.  No need to plow through the random results of Google searches then sort out and try what "seems to" make sense.   
+Think of the FitHome experience as a Home health Personal Trainer made of a [smartphone app](#app) and [energy monitor](#monitor).  During a one month training period, you will get personalized, simple guidance on the easiest way to lower your electricity use.  You will receive immediate feedback on how well you are doing, including the amount of money you are saving and your impact on helping to minimize climate change.  No need to plow through the random results of Google searches then sort out and try what seems to make sense.  It's amazing how much electricity we waste yet don't have any idea how we can use less with no change to our lifestyle.  Saving electricity means saving money and making a positive impact on climate change.  
 # Save Money   
 <a href='{{ '/about/#save_money' | prepend: site.baseurl | replace: '//', '/' }}' target="_blank">Save $200/year - or more </a> on your electricity bill with no changes to your lifestyle.  
 # Save lives
@@ -54,7 +54,7 @@ The monitor reads the amount of electricity your devices are using and sends thi
 <hr>
 # The 15% One Month Challenge
 <a id="challenge">
-* Takes one month for a one time fee of <TBD>.
+* Takes one month for a donation of _TBD_.
 * Electrician installs and uninstalls the monitor.
 * App shows you:  
   * How much electricity your are using.  
