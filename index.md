@@ -7,6 +7,8 @@ notify: true
 
 ---
 <link rel="stylesheet" href='{{ '/assets/page-style.css' | prepend: site.baseurl | replace: '//', '/' }}'>
+# The FitHome Experience
+Using [a Smartphone app](#app) and [energy monitor](#monitor), you will get personalized, simple guidance on what to do to lower your electricity use.  You will receive immediate feedback on how well you are doing, including the amount of money you are saving and how much better the air is because of your efforts.  No need to plow through the random results of Google searches then sort out and try what "seems to" make sense.  We think of the FitHome experience as a Home health Personal Trainer that comes to your house for a month.  During that time, you easily lower your electricity and receive immediate feedback on how well you are doing.  
 # Save Money   
 <a href='{{ '/about/#save_money' | prepend: site.baseurl | replace: '//', '/' }}' target="_blank">Save $200/year - or more </a> on your electricity bill with no changes to your lifestyle.  
 # Save lives
@@ -16,11 +18,9 @@ notify: true
 
 # Combat Climate Change  
 Using less electricity makes it easier for renewable energy sources to meet our electricity needs.  
-<hr>
-# The FitHome Experience
-The FitHome experience walks you through exactly what you should do to lower your electricity use.  No need to plow through the random results of Google searches then sort out and try what "seems to" make sense.  We think of the FitHome experience as a Home health Personal Trainer that comes to your house for a month.  During that time, you easily lower your electricity and receive immediate feedback on how well you are doing.
 
-## FitHome App
+# FitHome App
+<a id="app">
   Lets you know how much electricity you are using and how much electricity you are saving.  Know how much money you are saving.  Know how much impact your savings are having on cleaning up our air.
 <br>
 <div class="container-fluid">
@@ -35,9 +35,9 @@ The FitHome experience walks you through exactly what you should do to lower you
      </div> 
   </div>
 </div>
-<br>
 <hr>
-## FitHome Monitor   
+# FitHome Monitor   
+<a id="monitor">
 The monitor reads the amount of electricity your devices are using and sends this info to your phone.
 <br>
 <div class="container-fluid">
@@ -51,11 +51,10 @@ The monitor reads the amount of electricity your devices are using and sends thi
     </div>    
   </div>
 </div>
-<br>
 <hr>
 # The 15% One Month Challenge
 <a id="challenge">
-* Takes one month for a one time fee of $59.50.
+* Takes one month for a one time fee of <TBD>.
 * Electrician installs and uninstalls the monitor.
 * App shows you:  
   * How much electricity your are using.  
