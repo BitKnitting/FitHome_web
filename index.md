@@ -8,13 +8,14 @@ notify: true
 ---
 <link rel="stylesheet" href='{{ '/assets/page-style.css' | prepend: site.baseurl | replace: '//', '/' }}'>
 <hr>
-Think of the FitHome experience as a Home health Personal Trainer made of a [smartphone app](#app) and [energy monitor](#monitor).  During a one month training period, you will get personalized, simple guidance on the easiest way to lower your electricity use.  You will receive immediate feedback on how well you are doing, including the amount of money you are saving and your impact on helping to minimize climate change.  No need to plow through the random results of Google searches then sort out and try what seems to make sense.  It's amazing how much electricity we waste yet don't have any idea how we can use less with no change to our lifestyle.  Saving electricity means saving money and making a positive impact on climate change.  
+Think of the FitHome experience as a Home health Personal Trainer made of a [smartphone app](#app) and [energy monitor](#monitor).  During a one month training period, you will get personalized, simple guidance on the easiest way to lower your electricity use.  You will receive immediate feedback on how well you are doing, including the amount of money you are saving and your impact on helping to minimize climate change.  No need to plow through the random results of Google searches then sort out and try what seems to make sense.  It's amazing how much electricity we waste yet don't have any idea how we can use less with no change to our lifestyle.  Saving electricity means saving money and making a positive impact on climate change. The FitHome Experience  gets us __mindful__ and __connected__ to a future that is reliant on renewable energy. 
 # Save Money   
 <a href='{{ '/about/#save_money' | prepend: site.baseurl | replace: '//', '/' }}' target="_blank">Save $200/year - or more </a> on your electricity bill with no changes to your lifestyle.  
 # Save lives
 [If all households in the US saved at least 15%](https://aceee.org/research-report/h1801){:target="_blank"}:  
   * 6 lives would be saved per day.
   * There would be 30,000 fewer asthma episodes.  
+  * A $20B savings in health harm costs.
 
 # Combat Climate Change  
 Using less electricity makes it easier for renewable energy sources to meet our electricity needs.  
