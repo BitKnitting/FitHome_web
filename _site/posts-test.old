@@ -8,6 +8,21 @@
 
 
   <meta charset="utf-8">
+  <!-- Begin Jekyll SEO tag v2.6.0 -->
+<title>Posts | FitHome</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Posts" />
+<meta name="author" content="HappyDay" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Trim the Fat from your Electricity Bills.Help Combat Climate Change." />
+<meta property="og:description" content="Trim the Fat from your Electricity Bills.Help Combat Climate Change." />
+<link rel="canonical" href="http://localhost:4000/posts-test.old" />
+<meta property="og:url" content="http://localhost:4000/posts-test.old" />
+<meta property="og:site_name" content="FitHome" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/posts-test.old","author":{"@type":"Person","name":"HappyDay"},"description":"Trim the Fat from your Electricity Bills.Help Combat Climate Change.","headline":"Posts","@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>
@@ -152,6 +167,7 @@
 
 
  -->
+  
 
 </body>
 
