@@ -9,11 +9,13 @@ background: '/img/bg-about.jpg'
 # Us
 We want to use our skills in building and shipping software and hardware to make a positive difference. The area that interested us the most was moving towards  100% clean and healthy energy.  
 
-The area we decided to focus on is lowering our mindless use of electricity.  We found from our own experience, we were using 40% more than we needed with no change to our lifestyles.  If this is true for us, we figure it is true for many others.
+We decided to focus on lowering mindless excessive use of electricity.  We found from our own experience, we were using 40% more than we needed with no change to our lifestyles.  If this is true for us, we figure it is true for many others.
 
-Given the cleanest and healthiest electricity is the electricity we don't use, it will be easier to get to 100% clean and healthy energy if we cut down on wasteful consumption of electricity.  Besides, we save money.  What's not to like?
+The cleanest and healthiest electricity is the electricity we don't use.  It will be easier to get to 100% clean and healthy energy if we cut down on wasteful consumption of electricity.  Besides, we save money and breathe easier.  What's not to like?
 
-The challenge we aspire to conquer with the FitHome Experience is to make it extremely easy for any homeowner to immediate lower the amount of electricity they use with no change to their lifestyle.
+BUT...who has time to wade through their electricity bills then figure out from some random web source how to lower their use?  Besides, the reward in doing so is not immediately obvious.
+
+This is why we're doing FitHome.  To make it extremely easy to use less electricity while at the same time getting immediate feedback on the amount of electricity being saved and the positive impact this savings is having on our environment.
 
 # Become a 15%er 
 The FitHome experience is successful if the participants use 15% less electricity than they did before participating.  Consuming 15% less electricity is a reachable goal.  After all, [folks in Germany use 54% less electricity than folks in the US](https://en.wikipedia.org/wiki/List_of_countries_by_electricity_consumption){:target="_blank"}. Of course, there could be many reasons for this difference perhaps it is because:  
