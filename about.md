@@ -7,13 +7,14 @@ background: '/img/bg-about.jpg'
 <link rel="stylesheet" href='{{ '/assets/page-style.css' | prepend: site.baseurl | replace: '//', '/' }}'>
 
 # Us
-We want to use our skills in building and shipping software and hardware to make a positive difference in our community. The area that interested us the most was moving towards  100% clean and healthy energy.
+We want to use our skills in building and shipping software and hardware to make a positive difference. The area that interested us the most was moving towards  100% clean and healthy energy.  
 
-We started to become mindful of the amount of electricity we were wasting (about 40%).  We figured if we wasted this much, many others must be wasting a lot of electricity.  We decided to focus our efforts within the community we live - a place we know the most about, Kirkland, Washington.
-## Our Contribution
-We are not interested in making or losing money.  We want to make an impact.
-  
-Our contribution towards 100% clean and healthy energy focuses on conserving electricity.  We figure the cleanest and healthiest electricity is the electricity we don't use.  If we all conserve, it will be easier to get to 100% clean and healthy energy.
+The area we decided to focus on is lowering our mindless use of electricity.  We found from our own experience, we were using 40% more than we needed with no change to our lifestyles.  If this is true for us, we figure it is true for many others.
+
+Given the cleanest and healthiest electricity is the electricity we don't use, it will be easier to get to 100% clean and healthy energy if we cut down on wasteful consumption of electricity.  Besides, we save money.  What's not to like?
+
+The challenge we aspire to conquer with the FitHome Experience is to make it extremely easy for any homeowner to immediate lower the amount of electricity they use with no change to their lifestyle.
+
 # Become a 15%er 
 The FitHome experience is successful if the participants use 15% less electricity than they did before participating.  Consuming 15% less electricity is a reachable goal.  After all, [folks in Germany use 54% less electricity than folks in the US](https://en.wikipedia.org/wiki/List_of_countries_by_electricity_consumption){:target="_blank"}. Of course, there could be many reasons for this difference perhaps it is because:  
 * less air conditioning and heating is used.  [The temperatures are not that different.  Perhaps us folks in the Seattle area use more air conditioning because there are 306 more hours of sunlight?](http://www.seattle.climatemps.com/vs/berlin.php){:target="_blank"} 
