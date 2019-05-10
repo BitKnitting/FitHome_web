@@ -2,7 +2,7 @@
 layout: page
 background: '/img/bg-index.jpg'
 title: FitHome
-description: The Lazy Person's Solution to Saving Electricity.
+description: The Busy Person's Solution to Saving Electricity.
 notify: true
 
 ---
