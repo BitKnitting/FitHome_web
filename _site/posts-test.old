@@ -20,7 +20,7 @@
 <meta property="og:url" content="http://localhost:4000/posts-test.old" />
 <meta property="og:site_name" content="FitHome" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/posts-test.old","author":{"@type":"Person","name":"HappyDay"},"description":"Trim the Fat from your Electricity Bills.Help Combat Climate Change.","headline":"Posts","@type":"WebPage","@context":"https://schema.org"}</script>
+{"headline":"Posts","url":"http://localhost:4000/posts-test.old","author":{"@type":"Person","name":"HappyDay"},"description":"Trim the Fat from your Electricity Bills.Help Combat Climate Change.","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">

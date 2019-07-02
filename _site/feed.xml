@@ -1,109 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-05T05:07:10-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FitHome</title><subtitle>Trim the Fat from your Electricity Bills.&lt;br&gt;Help Combat Climate Change.</subtitle><author><name>HappyDay</name></author><entry><title type="html"></title><link href="http://localhost:4000/2019/04/23/testing-revB-Power-PCB.html" rel="alternate" type="text/html" title="" /><published>2019-04-23T00:00:00-07:00</published><updated>2019-04-23T00:00:00-07:00</updated><id>http://localhost:4000/2019/04/23/testing-revB-Power-PCB</id><content type="html" xml:base="http://localhost:4000/2019/04/23/testing-revB-Power-PCB.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/post-entry-style.css&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-02T09:16:39-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FitHome</title><subtitle>Trim the Fat from your Electricity Bills.&lt;br&gt;Help Combat Climate Change.</subtitle><author><name>HappyDay</name></author><entry><title type="html"></title><link href="http://localhost:4000/2019/06/30/design-getting-started.html" rel="alternate" type="text/html" title="" /><published>2019-06-30T00:00:00-07:00</published><updated>2019-06-30T00:00:00-07:00</updated><id>http://localhost:4000/2019/06/30/design-getting-started</id><content type="html" xml:base="http://localhost:4000/2019/06/30/design-getting-started.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/post-entry-style.css&quot; /&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/BitKnitting/FitHome_Power_PCB&quot;&gt;Power PCB GitHub&lt;/a&gt;.  In particular, the Current Samplig section of Readme.md.&lt;/p&gt;
-&lt;h1 id=&quot;test-1---0--i1p_0_in--600mv-vpp&quot;&gt;Test 1 - 0 &amp;lt; I1P_0_IN &amp;lt;= 600mV Vpp&lt;/h1&gt;
-&lt;p&gt;I used my nifty-difty power cord current measuring thing and strapped the CT around the power line.
-&lt;img src=&quot;/img/power_cord_thingy_with_clamp.jpg&quot; alt=&quot;power cord thingy&quot; /&gt;  &lt;br /&gt;
-I connected my soldering iron to this and turned on the power.&lt;/p&gt;
+&lt;h1 id=&quot;design---getting-started&quot;&gt;Design - Getting Started&lt;/h1&gt;
+&lt;p&gt;A homeowner finds out about FitHome from a post on NextDoor.  The post includes an email address to get started.
+&lt;img src=&quot;/assets/post-imgs/post-2019-6-30/contact_through_monitoring.png&quot; alt=&quot;sketch image of getting started&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Not working.  I tried Tisham’s board, using a DMM set to VAC.
-Put one probe on IA1+ and the other probe on GNDA.  I got a reading of 15mV.
-As with yesterday’s test, I soldered the small additions required for Current Sampling from U1.  Questions:&lt;/p&gt;
+&lt;h1 id=&quot;1&quot;&gt;1&lt;/h1&gt;
+&lt;p&gt;The homeowner either mails or sends a text to us.  We email/text back:&lt;/p&gt;
+
+&lt;p&gt;1) a “contract” to sign that states the homeowner will commit to one month of FitHome Personal Electricity Savings Training.&lt;br /&gt;
+2) a request for additional information, explaining why we need it:&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;Have I correctly identified the pins on the TRS 3.5 Jack’s layout to the rings on the CT?  After all, I “custom made” the layout.&lt;/li&gt;
+  &lt;li&gt;email address (used to create a membership)&lt;/li&gt;
+  &lt;li&gt;home address (needed by the electrician to install the monitor)&lt;/li&gt;
+  &lt;li&gt;contact phone/text number (needed to exchange info from us to the member)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Go back make sure understand.&lt;/p&gt;
-
-&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;</content><author><name>HappyDay</name></author><summary type="html"></summary></entry><entry><title type="html"></title><link href="http://localhost:4000/2019/04/22/testing-revB-Power-PCB.html" rel="alternate" type="text/html" title="" /><published>2019-04-22T00:00:00-07:00</published><updated>2019-04-22T00:00:00-07:00</updated><id>http://localhost:4000/2019/04/22/testing-revB-Power-PCB</id><content type="html" xml:base="http://localhost:4000/2019/04/22/testing-revB-Power-PCB.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/post-entry-style.css&quot; /&gt;
-
-&lt;h1 id=&quot;reference&quot;&gt;Reference&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/BitKnitting/FitHome_Power_PCB&quot;&gt;Power PCB GitHub&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;test-1---vp0--135mv&quot;&gt;Test 1 - VP0 ~= 135mV&lt;/h1&gt;
-&lt;p&gt;&lt;em&gt;Note: Why 135mV is discussed within the Power PCB’s GitHub Readme file&lt;/em&gt;&lt;br /&gt;
-I soldered just enough of the components to take a reading.&lt;/p&gt;
-&lt;h2 id=&quot;wire-colors&quot;&gt;Wire colors&lt;/h2&gt;
-&lt;p&gt;I always forget which colors are power and which are ground on a cable.  So I copy around:&lt;/p&gt;
-&lt;h2 id=&quot;power-cord-color-coding&quot;&gt;Power Cord Color Coding&lt;/h2&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;| Function 	| label 	| color 
-|----------	|-------	|-------
-| Neutral  	| N     	| white 
-| Line 1   	| L1    	| black 
-| Line 2   	| L2    	| red   
-| Ground        | G             | green   
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h2 id=&quot;what-the-pcb-looks-like&quot;&gt;What the PCB looks like&lt;/h2&gt;
-&lt;h3 id=&quot;front&quot;&gt;Front&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/img/revB_Power_PCB/vp0_test_board_front.png&quot; alt=&quot;board front&quot; /&gt;&lt;/p&gt;
-&lt;h3 id=&quot;back&quot;&gt;Back&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/img/revB_Power_PCB/vp0_test_board_back.png&quot; alt=&quot;board back&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;There are not many components that need to be soldered to get to this point.&lt;/p&gt;
-
-&lt;p&gt;The holes for the connector need to have a larger dimension.&lt;/p&gt;
-&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
-&lt;p&gt;Ooh. Yippee!  &lt;br /&gt;
-&lt;img src=&quot;/img/vp0.bmp&quot; alt=&quot;VP0 under scope&quot; /&gt;&lt;br /&gt;
-VP0 = 143. I’m saying close enough…&lt;/p&gt;</content><author><name>HappyDay</name></author><summary type="html"></summary></entry><entry><title type="html"></title><link href="http://localhost:4000/2019/04/21/In-More-on-setting-up-the-website.html" rel="alternate" type="text/html" title="" /><published>2019-04-21T00:00:00-07:00</published><updated>2019-04-21T00:00:00-07:00</updated><id>http://localhost:4000/2019/04/21/In-More-on-setting-up-the-website</id><content type="html" xml:base="http://localhost:4000/2019/04/21/In-More-on-setting-up-the-website.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/post-entry-style.css&quot; /&gt;
-
-&lt;p&gt;Wow.  Jekyll + GitHub pages + Bootstrap 4 (and maybe material design…not sure yet!) is a powerful combo.  The biggest challenge I have had is getting links working when running a local copy AND github pages.&lt;/p&gt;
-&lt;h1 id=&quot;the-challenge&quot;&gt;The Challenge&lt;/h1&gt;
-&lt;p&gt;The challenge with getting links right include:&lt;/p&gt;
+&lt;p&gt;3) letting them know an electrician will be contacting them to install the energy monitor.&lt;/p&gt;
+&lt;h1 id=&quot;2&quot;&gt;2&lt;/h1&gt;
+&lt;p&gt;We:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Beginning knowledge to the intricate world of absolute/relative and perhaps other paths.&lt;/li&gt;
-  &lt;li&gt;Unique characteristics of how Jekyll / GitHub pages interact.
-    &lt;h2 id=&quot;the-baseurl&quot;&gt;The BaseURL&lt;/h2&gt;
-    &lt;p&gt;The AHA! Light turned on for me after reading &lt;a href=&quot;https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/&quot;&gt;Parker’s article “&lt;em&gt;Clearing Up Confusion Around baseurl–Again&lt;/em&gt;”&lt;/a&gt;
-I used GitHub pages to create the &lt;a href=&quot;https://bitknitting.github.io/FitHome_web/&quot;&gt;FitHome web site&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;Assign an energy monitor to the homeowner.&lt;/li&gt;
+  &lt;li&gt;Make a pre-member entry into the Firebase RT db.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;As Parker points out: &lt;em&gt;TL;DR: Use baseurl when you are building a site that doesn’t sit at the root of the domain.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/post-imgs/post-2019-6-30/pre-members-db.png&quot; alt=&quot;pre-member entry&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;so I put this in _config.yml: &lt;code class=&quot;highlighter-rouge&quot;&gt;baseurl: /FitHome_web&lt;/code&gt;
-where FitHome_web is the GitHub project for the website.&lt;br /&gt;
-The local server (set up after running &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;) is found at &lt;code class=&quot;highlighter-rouge&quot;&gt;localhost:4000/FitHome_web/&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;DO NOT FORGET THE TRAILING SLASH&lt;/strong&gt; as I kept doing…sadly…&lt;/p&gt;
-&lt;h2 id=&quot;building-the-link&quot;&gt;Building The Link&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;_includes/head.html&quot;&gt;head.html&lt;/a&gt; shows a line that tells the web site both locally and on the https://bitknitting.github.io/FitHome_web/ servier where the main.css file is located.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt; &amp;lt;link rel=&quot;stylesheet&quot; href='/assets/main.css'&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Now - this is new to me but seems very cool - Jekyll implements &lt;em&gt;Liquid Filters&lt;/em&gt;.  I like to know where this stuff comes from and found &lt;a href=&quot;https://help.shopify.com/en/themes/liquid&quot;&gt;shopify started all this and then open sourced&lt;/a&gt;.  Info for the two Liquid Filters used above can be found in &lt;a href=&quot;https://jekyllrb.com/docs/liquid/filters/&quot;&gt;Jekyll’s documenation&lt;/a&gt;. The href resolves to &lt;code class=&quot;highlighter-rouge&quot;&gt;/FitHome_web/assets/main.css&lt;/code&gt;.  If there was a &lt;code class=&quot;highlighter-rouge&quot;&gt;//&lt;/code&gt;, this would be replaced with a &lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt;.&lt;br /&gt;
-&lt;a href=&quot;_includes/navbar.html&quot;&gt;navbar.html&lt;/a&gt; also makes use of Jekyll’s implementation of Liquid Filters to create a url:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;href='/tech'&lt;/code&gt;&lt;/p&gt;</content><author><name>HappyDay</name></author><summary type="html">Wow. Jekyll + GitHub pages + Bootstrap 4 (and maybe material design…not sure yet!) is a powerful combo. The biggest challenge I have had is getting links working when running a local copy AND github pages. The Challenge The challenge with getting links right include: Beginning knowledge to the intricate world of absolute/relative and perhaps other paths. Unique characteristics of how Jekyll / GitHub pages interact. The BaseURL The AHA! Light turned on for me after reading Parker’s article “Clearing Up Confusion Around baseurl–Again” I used GitHub pages to create the FitHome web site.</summary></entry><entry><title type="html"></title><link href="http://localhost:4000/2019/04/18/In-Process.html" rel="alternate" type="text/html" title="" /><published>2019-04-18T00:00:00-07:00</published><updated>2019-04-18T00:00:00-07:00</updated><id>http://localhost:4000/2019/04/18/In-Process</id><content type="html" xml:base="http://localhost:4000/2019/04/18/In-Process.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/post-entry-style.css&quot; /&gt;
-
-&lt;h1 id=&quot;building-the-fithome-website&quot;&gt;Building the FitHome website&lt;/h1&gt;
-&lt;p&gt;I used GitHub pages to create the &lt;a href=&quot;https://bitknitting.github.io/FitHome_web/&quot;&gt;FitHome web site&lt;/a&gt;.&lt;br /&gt;
-GitHub has a nifty way to build a website that uses Jekyll. I’m new to Jekyll.  So far there is alot to like:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;I can write pages in markdown.&lt;/li&gt;
-  &lt;li&gt;It is heavily template based - this reminds me alot like Flask.&lt;/li&gt;
-  &lt;li&gt;A web site can start off with a basic template.&lt;/li&gt;
-  &lt;li&gt;A local web site can run that automagically updates when changes are made to the file (like Flask).&lt;/li&gt;
+  &lt;li&gt;Contact the electrictian.  We give the electrician the homeowner’s address, contact info, and energy monitor.&lt;/li&gt;
+  &lt;li&gt;We contact the homeowner to let them know an electrician will be contacting them.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;em&gt;Note: I have already installed a local copy of Jekyll.&lt;/em&gt;&lt;/p&gt;
-&lt;h1 id=&quot;steps&quot;&gt;Steps&lt;/h1&gt;
-&lt;p&gt;I decided to start with &lt;a href=&quot;https://startbootstrap.com/themes/clean-blog-jekyll/&quot;&gt;the clean blog template from Start Bootstrap&lt;/a&gt;.  The tree and template structure is already Jekyll aware.  It uses Bootstrap to make styling the site easier.  It has a look I like.&lt;/p&gt;
+&lt;h1 id=&quot;3&quot;&gt;3&lt;/h1&gt;
+&lt;p&gt;The electrician:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Copied to my local repo directory.&lt;/li&gt;
-  &lt;li&gt;Changed the base URL from “/startbootstrap-clean-blog-jekyll” to “”.&lt;/li&gt;
-  &lt;li&gt;Changed th url from “ “http://blackrockdigital.github.io” to “http://bitknitting.github.io”&lt;/li&gt;
-  &lt;li&gt;Made sure it worked on Localhost:4000.  &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Deleted the original .git directory (I found deleting Start Bootstrap’s repo the easiest way to link to my remote repo)&lt;/li&gt;
-  &lt;li&gt;Created a git repository: &lt;code class=&quot;highlighter-rouge&quot;&gt;git init&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Created a gh_pages branch.  &lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout -b gh-pages&lt;/code&gt; &lt;em&gt;Note: The github pages doc says the website can be created under master.  I had a heckuva time with this so I fell back to blindly following steps from YouTube videos, &lt;a href=&quot;https://www.youtube.com/watch?v=fqFjuX4VZmU&quot;&gt;like this one, Hosting on GitHub&lt;/a&gt;&lt;/em&gt;.&lt;/li&gt;
-  &lt;li&gt;Push local git to gitHub ```&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git add .&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git commit -m 'first commit'&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git remote add origin https://github.com/BitKnitting/Material_Design_Lite.git&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git push -u origin gh-pages&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;TBD&lt;/strong&gt; &lt;em&gt;Didn’t have to do this the second time I tried&lt;/em&gt; Modify baseurl in _config.yml to be name of GitHub repo.&lt;/li&gt;
-  &lt;li&gt;Created a new repository - &lt;a href=&quot;&quot;&gt;FitHome_web&lt;/a&gt; without a Readme.md.&lt;/li&gt;
-  &lt;li&gt;Went into Settings/Branches and set &lt;code class=&quot;highlighter-rouge&quot;&gt;gh-pages&lt;/code&gt; as the default branch.  I did this to make sure I always went to this branch.&lt;/li&gt;
-  &lt;li&gt;Turn on pages in Settings if not already on.  Make sure to use &lt;code class=&quot;highlighter-rouge&quot;&gt;gh-pages&lt;/code&gt; branch.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>HappyDay</name></author><summary type="html">Building the FitHome website I used GitHub pages to create the FitHome web site. GitHub has a nifty way to build a website that uses Jekyll. I’m new to Jekyll. So far there is alot to like: I can write pages in markdown. It is heavily template based - this reminds me alot like Flask. A web site can start off with a basic template. A local web site can run that automagically updates when changes are made to the file (like Flask). Note: I have already installed a local copy of Jekyll. Steps I decided to start with the clean blog template from Start Bootstrap. The tree and template structure is already Jekyll aware. It uses Bootstrap to make styling the site easier. It has a look I like. Copied to my local repo directory. Changed the base URL from “/startbootstrap-clean-blog-jekyll” to “”. Changed th url from “ “http://blackrockdigital.github.io” to “http://bitknitting.github.io” Made sure it worked on Localhost:4000. bundle exec jekyll serve Deleted the original .git directory (I found deleting Start Bootstrap’s repo the easiest way to link to my remote repo) Created a git repository: git init Created a gh_pages branch. git checkout -b gh-pages Note: The github pages doc says the website can be created under master. I had a heckuva time with this so I fell back to blindly following steps from YouTube videos, like this one, Hosting on GitHub. Push local git to gitHub ``` git add . git commit -m 'first commit' git remote add origin https://github.com/BitKnitting/Material_Design_Lite.git git push -u origin gh-pages TBD Didn’t have to do this the second time I tried Modify baseurl in _config.yml to be name of GitHub repo. Created a new repository - FitHome_web without a Readme.md. Went into Settings/Branches and set gh-pages as the default branch. I did this to make sure I always went to this branch. Turn on pages in Settings if not already on. Make sure to use gh-pages branch.</summary></entry></feed>
+  &lt;li&gt;Contacts the homeowner and arranges a date/time for an in-home visit to install the energy monitor in the homeowner’s circuit panel.&lt;/li&gt;
+  &lt;li&gt;Installs the energy monitor.&lt;/li&gt;
+  &lt;li&gt;Works with the homeowner to connect the energy monitor to the home’s wifi.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once the energy monitor is installed and connected to the home’s wifi, it starts sending power readings to the Firebase RT db. One weeks worth of readings are taken prior to the start of the FitHome member’s 3 week personal training session.&lt;/p&gt;
+
+&lt;h1 id=&quot;4&quot;&gt;4&lt;/h1&gt;
+&lt;p&gt;The homeowner:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;(4.1) Installs and launches the FitHome app on their smartphone.&lt;/li&gt;
+  &lt;li&gt;(4.2) Creates a Member account by entering their email and a password.  &lt;em&gt;Note: The email must be the same email given to us earlier.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;(4.3) Verifies the homeowner is getting data on their app by viewing the impact screen.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;During this time, the app shows the Impact Screen.  However, the Analysis and Leaderboard screen aren’t available.  They show a countdown of how much time is left before their FitHome session begins.   By starting with a week’s worth of data, we can personalize electricity savings advice based on how they currently use electricity.&lt;/p&gt;</content><author><name>HappyDay</name></author><summary type="html">Design - Getting Started A homeowner finds out about FitHome from a post on NextDoor. The post includes an email address to get started.</summary></entry></feed>
