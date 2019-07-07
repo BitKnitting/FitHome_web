@@ -1,13 +1,13 @@
 ---
 layout: post
 title: ""
-description: "Design - The Experience from Getting an Email to Monitoring Energy"
+description: "Design - Getting Started"
 background: '/img/bg-post.jpg'
 ---
 <link rel="stylesheet" href='{{ '/assets/post-entry-style.css' | prepend: site.baseurl | replace: '//', '/' }}'>  
   
 # Design - Getting Started
-A homeowner finds out about FitHome from a post on NextDoor.  The post includes an email address to get started.
+A homeowner finds out about FitHome from social media or other local discovery method.  The post includes an email address to get started.
 ![sketch image of getting started](/assets/post-imgs/post-2019-6-30/contact_through_monitoring.png)
 
 # 1
