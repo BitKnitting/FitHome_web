@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ""
-description: "HW/FW - Energy Monitor"
+description: "Hardware - Energy Monitor"
 background: '/img/bg-post.jpg'
 ---
 <link rel="stylesheet" href='{{ '/assets/post-entry-style.css' | prepend: site.baseurl | replace: '//', '/' }}'>  

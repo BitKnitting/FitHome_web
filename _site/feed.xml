@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-03T09:47:25-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FitHome</title><subtitle>Trim the Fat from your Electricity Bills.&lt;br&gt;Help Combat Climate Change.</subtitle><author><name>HappyDay</name></author><entry><title type="html"></title><link href="http://localhost:4000/2019/07/03/hw-and-fiw-Energy-Monitor.html" rel="alternate" type="text/html" title="" /><published>2019-07-03T00:00:00-07:00</published><updated>2019-07-03T00:00:00-07:00</updated><id>http://localhost:4000/2019/07/03/hw-and-fiw-Energy%20Monitor</id><content type="html" xml:base="http://localhost:4000/2019/07/03/hw-and-fiw-Energy-Monitor.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/post-entry-style.css&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-30T05:07:30-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FitHome</title><subtitle>Trim the Fat from your Electricity Bills.&lt;br&gt;Help Combat Climate Change.</subtitle><author><name>HappyDay</name></author><entry><title type="html"></title><link href="http://localhost:4000/2019/07/03/hardware-Energy-Monitor.html" rel="alternate" type="text/html" title="" /><published>2019-07-03T00:00:00-07:00</published><updated>2019-07-03T00:00:00-07:00</updated><id>http://localhost:4000/2019/07/03/hardware-Energy%20Monitor</id><content type="html" xml:base="http://localhost:4000/2019/07/03/hardware-Energy-Monitor.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/post-entry-style.css&quot; /&gt;
 
 &lt;h1 id=&quot;electricity-to-our-homes&quot;&gt;Electricity to our Homes&lt;/h1&gt;
 &lt;h2 id=&quot;electricity-coming-into-our-homes&quot;&gt;Electricity Coming Into Our Homes&lt;/h2&gt;
@@ -11,12 +11,12 @@ To measure the current, we use two Current Transformers (CTs), one for each powe
 &lt;p&gt;We are using Circuit Setup’s &lt;a href=&quot;https://circuitsetup.us/index.php/product/split-single-phase-real-time-whole-house-energy-meter-v1-2/&quot;&gt;Split Single Phase Real Time Whole House Energy Meter&lt;/a&gt; as the “brains” behind getting the readings from the home.&lt;br /&gt;
 &lt;img src=&quot;/assets/post-imgs/post-2019-07-03/energy_meter1.jpg&quot; alt=&quot;energy meter&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;current-transformers&quot;&gt;Current Transformers&lt;/h3&gt;
+&lt;h2 id=&quot;current-transformers&quot;&gt;Current Transformers&lt;/h2&gt;
 &lt;p&gt;The electrician snaps one CurrentTransformer (CT) over each of the home’s two power lines.&lt;/p&gt;
-&lt;h4 id=&quot;characteristics-of-the-ct&quot;&gt;Characteristics of the CT&lt;/h4&gt;
+&lt;h3 id=&quot;characteristics-of-the-ct&quot;&gt;Characteristics of the CT&lt;/h3&gt;
 &lt;p&gt;The characteristics of a CT to be considered when sourcing include:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;The amount of Amp Service.  &lt;a href=&quot;https://www.bhg.com/home-improvement/electrical/how-to-check-your-homes-electrical-capacity/&quot;&gt;From this article &lt;em&gt;Understanding Your Home’s Electrical Load&lt;/em&gt;&lt;/a&gt; &lt;em&gt;Different homes need different amp services. A 60-amp service is probably inadequate for a modern home. A 100-amp service is good for a home of less than 3,000 square feet that does not have central air-conditioning or electric heat. A home larger than 2,000 square feet that has central air-conditioning or electric heat probably needs a 200-amp service.&lt;/em&gt;  According to &lt;a href=&quot;https://community.openenergymonitor.org/t/ct-hole-diameter-for-north-america/5149&quot;&gt;Bill Thompson of the Open Energy Monitor Project&lt;/a&gt;, &lt;em&gt;US homes built before the late 60s were wired with Copper and typically had 100 Amp service, which used AWG 0 copper…Sometime in the late 60s to early 70s, Copper Service Entrance Wires were replaced by Aluminum. Since Aluminum has more resistance per foot than Copper, the equivalent Aluminum wire is two gauges larger than its Copper counterpart. About that same time, 200 Amp service became the norm.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;The amount of Amp Service.  This is important because it dictates the hole diameter of the CT.  Many homes are wired for 100 Amp service.  As a homes electricity use increased, the service increased to 200 Amps.&lt;a href=&quot;https://www.bhg.com/home-improvement/electrical/how-to-check-your-homes-electrical-capacity/&quot;&gt;From this article &lt;em&gt;Understanding Your Home’s Electrical Load&lt;/em&gt;&lt;/a&gt; &lt;em&gt;Different homes need different amp services. A 60-amp service is probably inadequate for a modern home. A 100-amp service is good for a home of less than 3,000 square feet that does not have central air-conditioning or electric heat. A home larger than 2,000 square feet that has central air-conditioning or electric heat probably needs a 200-amp service.&lt;/em&gt;  According to &lt;a href=&quot;https://community.openenergymonitor.org/t/ct-hole-diameter-for-north-america/5149&quot;&gt;Bill Thompson of the Open Energy Monitor Project&lt;/a&gt;, &lt;em&gt;US homes built before the late 60s were wired with Copper and typically had 100 Amp service, which used AWG 0 copper…Sometime in the late 60s to early 70s, Copper Service Entrance Wires were replaced by Aluminum. Since Aluminum has more resistance per foot than Copper, the equivalent Aluminum wire is two gauges larger than its Copper counterpart. About that same time, 200 Amp service became the norm.&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;The wire gauge.  The Outside Diameter of the wire gauge determines how large the diameter of the CT clamp must be.  As Bill noted, wires could be copper or aluminum, or copper-clad aluminum.  More aluminum, more current - the wider the diameter.
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://community.openenergymonitor.org/t/ct-hole-diameter-for-north-america/5149/3&quot;&gt;100 Amp Service uses 1/0 AWG&lt;/a&gt; = &lt;a href=&quot;https://lugsdirect.com/Wire_Insulation_Outside_Diameter_Thickness_600V.html&quot;&gt;12.08 mm&lt;/a&gt;.&lt;/li&gt;
@@ -25,60 +25,69 @@ To measure the current, we use two Current Transformers (CTs), one for each powe
   &lt;/li&gt;
   &lt;li&gt;Whether the burden resistor is included.  This design assumes the CT &lt;strong&gt;does not&lt;/strong&gt; include the burden resistor.  I.e.: it’s output is a current and not a voltage.&lt;/li&gt;
   &lt;li&gt;The ratio of I(in) : I(out)&lt;/li&gt;
-  &lt;li&gt;The inclusion of a zener diode.  This is a terrific safety measure to make sure when the CT is clamped on, there is on open current source.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>HappyDay</name></author><summary type="html">Electricity to our Homes Electricity Coming Into Our Homes In our North American homes, 120V of electricity comes in through two power lines (HOT1 and HOT2). To measure the current, we use two Current Transformers (CTs), one for each power line. To measure the voltage, we use readings from an AC power transformer plugged into our energy monitor.</summary></entry><entry><title type="html"></title><link href="http://localhost:4000/2019/07/02/implementation-getting-started.html" rel="alternate" type="text/html" title="" /><published>2019-07-02T00:00:00-07:00</published><updated>2019-07-02T00:00:00-07:00</updated><id>http://localhost:4000/2019/07/02/implementation-getting-started</id><content type="html" xml:base="http://localhost:4000/2019/07/02/implementation-getting-started.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/post-entry-style.css&quot; /&gt;
+  &lt;li&gt;The inclusion of a zener diode.  This is a terrific safety measure to make sure when the CT is clamped on, the circuit is not open.
+    &lt;h1 id=&quot;our-choice-of-current-transformers&quot;&gt;Our Choice of Current Transformers&lt;/h1&gt;
+    &lt;p&gt;Two Current Transformers (CTs) are needed to get current readings on the two 120V lines.
+ ## 100 Amp &lt;br /&gt;
+We’ll be using &lt;a href=&quot;/https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/yhdc-sct-013-000-ct-sensor-report&quot;&gt;the SCT-013-000 CT&lt;/a&gt; for 100A homes.  It is popular with DIY home energy monitors.  There are two numbers of interest in the &lt;a href=&quot;http://statics3.seeedstudio.com/assets/file/bazaar/product/101990029-SCT-013-000-Datasheet.pdf&quot;&gt;YHDC SCT-013-000 datasheet&lt;/a&gt;:&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The diameter of the clamp opening - 13 mm&lt;/li&gt;
+  &lt;li&gt;The I(OUT) - 50 mA&lt;br /&gt;
+As Robert Wall of &lt;a href=&quot;https://openenergymonitor.org/&quot;&gt;the Open Energy Monitor project&lt;/a&gt; noted to me &lt;em&gt;…the manufacturer will tweak the number of secondary turns to give the best accuracy overall.  The ratio of a c.t. is &lt;strong&gt;ALWAYS&lt;/strong&gt; specified as a ratio of two currents, the rated primary current to the corresponding secondary current. So your SCT-013-000 is &lt;strong&gt;100 A : 50 mA&lt;/strong&gt;.&lt;/em&gt;
+    &lt;h2 id=&quot;200-amp&quot;&gt;200 Amp&lt;/h2&gt;
+    &lt;p&gt;TBD: We’ll know what to use as the project progresses.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>HappyDay</name></author><summary type="html">Electricity to our Homes Electricity Coming Into Our Homes In our North American homes, 120V of electricity comes in through two power lines (HOT1 and HOT2). To measure the current, we use two Current Transformers (CTs), one for each power line. To measure the voltage, we use readings from an AC power transformer plugged into our energy monitor.</summary></entry><entry><title type="html"></title><link href="http://localhost:4000/2019/07/02/implementation-monitor_installation.html" rel="alternate" type="text/html" title="" /><published>2019-07-02T00:00:00-07:00</published><updated>2019-07-02T00:00:00-07:00</updated><id>http://localhost:4000/2019/07/02/implementation-monitor_installation</id><content type="html" xml:base="http://localhost:4000/2019/07/02/implementation-monitor_installation.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/post-entry-style.css&quot; /&gt;
 
-&lt;p&gt;This post follows on the &lt;a href=&quot;/2019/06/30/design-getting-started.html&quot;&gt;Getting Started Design&lt;/a&gt; post.&lt;/p&gt;
+&lt;p&gt;This post follows on the &lt;a href=&quot;/2019/06/30/design-getting-started.html&quot;&gt;Design - Getting Started&lt;/a&gt; post.&lt;/p&gt;
 
 &lt;h1 id=&quot;first-interaction&quot;&gt;First Interaction&lt;/h1&gt;
-&lt;p&gt;The first interaction is with the Firebase RT db.  As noted in the design post, one of the steps we take to initiate the FitHome experience is to make a pre-member entry into the Firebase RT db.
+&lt;p&gt;Our first interaction with the Fithome system is with the Firebase RT db.  As noted in the design post, one of the steps we take to initiate the FitHome experience is to make a pre-member entry into the Firebase RT db.&lt;br /&gt;
 &lt;img src=&quot;/assets/post-imgs/post-2019-6-30/pre-members-db.png&quot; alt=&quot;pre-member db entry&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We make this entry prior to the electrician installing the energy monitor.&lt;/p&gt;
 &lt;h1 id=&quot;configuring-the-monitor&quot;&gt;Configuring the Monitor&lt;/h1&gt;
-&lt;p&gt;The monitor needs two pieces of information:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;The machine name.  This is configured “hard coded” into the firmware.  The machine name is a combination of a common name followed by a ‘-‘ and then the date.  For example, the machine name in the above image is &lt;code class=&quot;highlighter-rouge&quot;&gt;bambi-07012019&lt;/code&gt;. The common name is bambi and the date is 7/1/2019.&lt;/li&gt;
-  &lt;li&gt;The SSID/password of the homeowner’s wifi.
-Ideally, the SSID/password would magically vaporize into the energy monitor when the electrician plugs it in.  Unfortunately, it does not.
-    &lt;h2 id=&quot;configuring-wifi&quot;&gt;Configuring wifi&lt;/h2&gt;
-    &lt;p&gt;Soon after the electrician installs the energy monitor, the home owner must tell the energy monitor the home wifi SSID and password.  The technique to do this is starting the energy monitor’s firmware as a Local Access Point.  The homeowner goes to their mac or pc and scrolls the available wifi networks.  Once the energy monitor is plugged in, the network &lt;strong&gt;fithome&lt;/strong&gt; will be added. 
-The home owner:&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;goes to their mac or pc.&lt;/li&gt;
-  &lt;li&gt;opens the drop down list of wifi networks and chooses “fithome”.&lt;/li&gt;
-  &lt;li&gt;uses “fithome” for the password.&lt;/li&gt;
-  &lt;li&gt;opens a browser and types in the address &lt;code class=&quot;highlighter-rouge&quot;&gt;192.168.4.1&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;A web page is shown where the user picks their wifi SSID and enters the password.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Prior to the electrician installing the energy monitor and CTs, we have configured the machine name and Firebase Project ID within the config.json file for the microcontroller.  How this is done, including how the home owner’s wifi SSID and password are discussed within the &lt;a href=&quot;https://github.com/BitKnitting/energy_monitor_firmware/blob/master/Readme.md&quot;&gt;energy monitor firmware Readme file&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;After successful completion, the energy monitor is able to use the home’s wifi.&lt;/p&gt;
 &lt;h1 id=&quot;sending-readings&quot;&gt;Sending Readings&lt;/h1&gt;
-&lt;p&gt;Now that the energy monitor is online, it will start sending power readings to the Firebase RT db over wifi.  The energy monitor uses the Firebase REST APIs to send readings to the Firebase RT db.  An example curl command:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl -X POST -d '{&quot;P&quot;:1127.9}' \
-  'https://&amp;lt;Firebase project name&amp;gt;.firebaseio.com/&amp;lt;machine name&amp;gt;/.json' 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h2 id=&quot;curl-to-http-post&quot;&gt;Curl to HTTP Post&lt;/h2&gt;
-&lt;p&gt;The firmware uses HTTP.  I found this great web page that &lt;a href=&quot;https://curl.trillworks.com/&quot;&gt;converts curl commands to Python  &lt;/a&gt;.  VERY HELPFUL.&lt;/p&gt;
-&lt;h2 id=&quot;example-post&quot;&gt;Example post&lt;/h2&gt;
-&lt;p&gt;For example, this code would send the power value to the Firebaase RT db that is attached to the iot-test-1e426 project:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    def send_reading(self, v1, v2, i1, i2, power):
-        do_connect(self.ssid, self.password)
-        # .sv timestamp: http://bit.ly/2MO0XNt
-        #data = '{'+'&quot;P&quot;:{},&quot;.sv&quot;:&quot;timestamp&quot;'.format(power) +'}'
-        data = '{'+'&quot;P&quot;:{}'.format(power) +',&quot;timestamp&quot;: {&quot;.sv&quot;:&quot;timestamp&quot;}}'
-        path = 'https://iot-test-1e426.firebaseio.com/'+self.device_name+'/'+self.userID+'/.json'
-        print(path)
-        response = requests.post(path, data=data)
-        print('response: {}'.format(response.text))
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;The power reading is sent.  The “timestamp” is generated on the Firebase server then filled into the db entry.&lt;/p&gt;</content><author><name>HappyDay</name></author><summary type="html">This post follows on the Getting Started Design post.</summary></entry><entry><title type="html"></title><link href="http://localhost:4000/2019/06/30/design-getting-started.html" rel="alternate" type="text/html" title="" /><published>2019-06-30T00:00:00-07:00</published><updated>2019-06-30T00:00:00-07:00</updated><id>http://localhost:4000/2019/06/30/design-getting-started</id><content type="html" xml:base="http://localhost:4000/2019/06/30/design-getting-started.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/post-entry-style.css&quot; /&gt;
+&lt;p&gt;Now that the energy monitor is online, it will start sending power readings to the Firebase RT db over wifi.  The details are discussed within the &lt;a href=&quot;https://github.com/BitKnitting/energy_monitor_firmware/blob/master/Readme.md&quot;&gt;energy monitor firmware Readme file&lt;/a&gt;.&lt;/p&gt;</content><author><name>HappyDay</name></author><summary type="html">This post follows on the Design - Getting Started post.</summary></entry><entry><title type="html"></title><link href="http://localhost:4000/2019/06/30/design-getting-started.html" rel="alternate" type="text/html" title="" /><published>2019-06-30T00:00:00-07:00</published><updated>2019-06-30T00:00:00-07:00</updated><id>http://localhost:4000/2019/06/30/design-getting-started</id><content type="html" xml:base="http://localhost:4000/2019/06/30/design-getting-started.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/post-entry-style.css&quot; /&gt;
 
-&lt;h1 id=&quot;design---getting-started&quot;&gt;Design - Getting Started&lt;/h1&gt;
-&lt;p&gt;A homeowner finds out about FitHome from a post on NextDoor.  The post includes an email address to get started.
+&lt;h1 id=&quot;download&quot;&gt;Download&lt;/h1&gt;
+&lt;p&gt;A homeowner downloads the FitHome app from either the Apple App Store or Google Play store.
 &lt;img src=&quot;/assets/post-imgs/post-2019-6-30/contact_through_monitoring.png&quot; alt=&quot;sketch image of getting started&quot; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;1&quot;&gt;1&lt;/h1&gt;
+&lt;h1 id=&quot;start-membership&quot;&gt;Start Membership&lt;/h1&gt;
+&lt;p&gt;Upon launching FitHome, the homeowner is shown the member registration screen.  If there are monitors available, the homeowner is shown the Start Training screen.&lt;br /&gt;
+&lt;img src=&quot;/assets/post-imgs/post-2019-6-30/start_training_screen.png&quot; alt=&quot;Start training screen&quot; /&gt;.&lt;br /&gt;
+If there is a waitlist, the homeowner is shown the waiting list sign up screen.&lt;br /&gt;
+&lt;img src=&quot;/assets/post-imgs/post-2019-6-30/waitlist_screen.png&quot; alt=&quot;Waitlist screen&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;geographic-location&quot;&gt;Geographic Location&lt;/h2&gt;
+&lt;p&gt;Whichever screen is shown, the homeowner is made aware of the limited geographic availability of the FitHome experience.  The limit is to make sure the homeowner will have a quality experience since there are a few places where personalized interactions are part of the experience, for example, when an electrician comes out to install the monitor.&lt;/p&gt;
+&lt;h3 id=&quot;supported-zip-codes&quot;&gt;Supported Zip Codes&lt;/h3&gt;
+&lt;p&gt;The FitHome experience ends here for a homeowner that does not find their zip code listed.  If their zip code is listed, they continue with the following….&lt;/p&gt;
+&lt;h2 id=&quot;enter-registration-information&quot;&gt;Enter Registration Information&lt;/h2&gt;
+&lt;p&gt;The homeowner enters member registration information and then taps on either the “START TRAINING” or “JOIN WAITING LIST” buttons.&lt;/p&gt;
+&lt;h3 id=&quot;start-training&quot;&gt;Start Training&lt;/h3&gt;
+&lt;h4 id=&quot;firebase-entries&quot;&gt;Firebase Entries&lt;/h4&gt;
+&lt;p&gt;After tapping “START TRAINING”, the app uses the email and password to create an account in the Firebase account database. &lt;br /&gt;
+&lt;img src=&quot;/assets/post-imgs/post-2019-6-30/firebase_account_console_view.png&quot; alt=&quot;Firebase account&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The app creates a node in the Firebase db where the node name is the user id.  The node contains additional fields collected on the Start Training screen.
+ &lt;img src=&quot;/assets/post-imgs/post-2019-6-30/firebase_db_member_entry.png&quot; alt=&quot;Firebase member entry&quot; /&gt;&lt;br /&gt;
+ &lt;em&gt;Note: At this point the machine name is not in the entry.  The machine name is added by member services when assigning the monitor.&lt;/em&gt;
+ #### Firebase Alerts
+ When the entry is created, a notification and text message is sent to FitHome member services.  This alerts FitHome member services to assign a monitor.&lt;/p&gt;
+
+&lt;h4 id=&quot;assign-monitor&quot;&gt;Assign Monitor&lt;/h4&gt;
+&lt;p&gt;Changing the state of the app to “Start Training” notifies FitHome member services of the need to assign a monitor to the homeowner.  FitHome member services:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Enters the monitor’s machine name as a key / value.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The name of the monitor is entered as a key/value within the node created by the homeowner within the Firebase db.&lt;/p&gt;
+&lt;h4 id=&quot;monitor-installation&quot;&gt;Monitor Installation&lt;/h4&gt;
+&lt;p&gt;The next screen helps the homeowner schedule a 1/2 hour appointment for an electrician to come out and install the monitor at available dates and times.  Once the appointment has been chosen and “SCHEDULE ELECTRICIAN” button has been tapped, the date/time is removed from the available times.  The electrician is notified and scheduled.  The app lets the homeowner know the appointment has been made.  A text is sent to the home owner within 24 hours of the appointment.&lt;/p&gt;
+
 &lt;p&gt;The homeowner either mails or sends a text to us.  We email/text back:&lt;/p&gt;
 
 &lt;p&gt;1) a “contract” to sign that states the homeowner will commit to one month of FitHome Personal Electricity Savings Training.&lt;br /&gt;
@@ -101,7 +110,7 @@ The home owner:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/post-imgs/post-2019-6-30/pre-members-db.png&quot; alt=&quot;pre-member entry&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Contact the electrictian.  We give the electrician the homeowner’s address, contact info, and energy monitor.&lt;/li&gt;
+  &lt;li&gt;Contact the electrictian.  We give the electrician the homeowner’s address, contact info, energy monitor, and Current Transformers.&lt;/li&gt;
   &lt;li&gt;We contact the homeowner to let them know an electrician will be contacting them.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -123,4 +132,4 @@ The home owner:&lt;/p&gt;
   &lt;li&gt;(4.3) Verifies the homeowner is getting data on their app by viewing the impact screen.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;During this time, the app shows the Impact Screen.  However, the Analysis and Leaderboard screen aren’t available.  They show a countdown of how much time is left before their FitHome session begins.   By starting with a week’s worth of data, we can personalize electricity savings advice based on how they currently use electricity.&lt;/p&gt;</content><author><name>HappyDay</name></author><summary type="html">Design - Getting Started A homeowner finds out about FitHome from a post on NextDoor. The post includes an email address to get started.</summary></entry></feed>
+&lt;p&gt;During this time, the app shows the Impact Screen.  However, the Analysis and Leaderboard screen aren’t available.  They show a countdown of how much time is left before their FitHome session begins.   By starting with a week’s worth of data, we can personalize electricity savings advice based on how they currently use electricity.&lt;/p&gt;</content><author><name>HappyDay</name></author><summary type="html">Download A homeowner downloads the FitHome app from either the Apple App Store or Google Play store.</summary></entry></feed>

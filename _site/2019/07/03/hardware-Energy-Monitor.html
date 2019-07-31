@@ -14,15 +14,15 @@
 <meta property="og:title" content="FitHome" />
 <meta name="author" content="HappyDay" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="HW/FW - Energy Monitor" />
-<meta property="og:description" content="HW/FW - Energy Monitor" />
-<link rel="canonical" href="http://localhost:4000/2019/07/03/hw-and-fiw-Energy-Monitor.html" />
-<meta property="og:url" content="http://localhost:4000/2019/07/03/hw-and-fiw-Energy-Monitor.html" />
+<meta name="description" content="Hardware - Energy Monitor" />
+<meta property="og:description" content="Hardware - Energy Monitor" />
+<link rel="canonical" href="http://localhost:4000/2019/07/03/hardware-Energy-Monitor.html" />
+<meta property="og:url" content="http://localhost:4000/2019/07/03/hardware-Energy-Monitor.html" />
 <meta property="og:site_name" content="FitHome" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-07-03T00:00:00-07:00" />
 <script type="application/ld+json">
-{"headline":"FitHome","dateModified":"2019-07-03T00:00:00-07:00","datePublished":"2019-07-03T00:00:00-07:00","url":"http://localhost:4000/2019/07/03/hw-and-fiw-Energy-Monitor.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019/07/03/hw-and-fiw-Energy-Monitor.html"},"author":{"@type":"Person","name":"HappyDay"},"description":"HW/FW - Energy Monitor","@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"headline":"FitHome","dateModified":"2019-07-03T00:00:00-07:00","datePublished":"2019-07-03T00:00:00-07:00","url":"http://localhost:4000/2019/07/03/hardware-Energy-Monitor.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019/07/03/hardware-Energy-Monitor.html"},"author":{"@type":"Person","name":"HappyDay"},"description":"Hardware - Energy Monitor","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -51,7 +51,7 @@
     href='/assets/vendor/fontawesome-free/css/all.min.css'>
   <!-- Local Stuff -->
   <link rel="stylesheet" href='/assets/main.css'>
-  <link rel="canonical" href="http://localhost:4000/2019/07/03/hw-and-fiw-Energy-Monitor.html">
+  <link rel="canonical" href="http://localhost:4000/2019/07/03/hardware-Energy-Monitor.html">
   <link rel="alternate" type="application/rss+xml" title="FitHome"
     href="/feed.xml">
 
@@ -82,7 +82,7 @@
                 <div class="page-heading">
                     <h1 class="text-light"></h1>
                     
-                    <span class="subheading">HW/FW - Energy Monitor</span>
+                    <span class="subheading">Hardware - Energy Monitor</span>
                     
                     
                     <!-- The only page that has this is the home/index page. -->
@@ -148,12 +148,12 @@ To measure the current, we use two Current Transformers (CTs), one for each powe
 <p>We are using Circuit Setup’s <a href="https://circuitsetup.us/index.php/product/split-single-phase-real-time-whole-house-energy-meter-v1-2/">Split Single Phase Real Time Whole House Energy Meter</a> as the “brains” behind getting the readings from the home.<br />
 <img src="/assets/post-imgs/post-2019-07-03/energy_meter1.jpg" alt="energy meter" /></p>
 
-<h3 id="current-transformers">Current Transformers</h3>
+<h2 id="current-transformers">Current Transformers</h2>
 <p>The electrician snaps one CurrentTransformer (CT) over each of the home’s two power lines.</p>
-<h4 id="characteristics-of-the-ct">Characteristics of the CT</h4>
+<h3 id="characteristics-of-the-ct">Characteristics of the CT</h3>
 <p>The characteristics of a CT to be considered when sourcing include:</p>
 <ul>
-  <li>The amount of Amp Service.  <a href="https://www.bhg.com/home-improvement/electrical/how-to-check-your-homes-electrical-capacity/">From this article <em>Understanding Your Home’s Electrical Load</em></a> <em>Different homes need different amp services. A 60-amp service is probably inadequate for a modern home. A 100-amp service is good for a home of less than 3,000 square feet that does not have central air-conditioning or electric heat. A home larger than 2,000 square feet that has central air-conditioning or electric heat probably needs a 200-amp service.</em>  According to <a href="https://community.openenergymonitor.org/t/ct-hole-diameter-for-north-america/5149">Bill Thompson of the Open Energy Monitor Project</a>, <em>US homes built before the late 60s were wired with Copper and typically had 100 Amp service, which used AWG 0 copper…Sometime in the late 60s to early 70s, Copper Service Entrance Wires were replaced by Aluminum. Since Aluminum has more resistance per foot than Copper, the equivalent Aluminum wire is two gauges larger than its Copper counterpart. About that same time, 200 Amp service became the norm.</em></li>
+  <li>The amount of Amp Service.  This is important because it dictates the hole diameter of the CT.  Many homes are wired for 100 Amp service.  As a homes electricity use increased, the service increased to 200 Amps.<a href="https://www.bhg.com/home-improvement/electrical/how-to-check-your-homes-electrical-capacity/">From this article <em>Understanding Your Home’s Electrical Load</em></a> <em>Different homes need different amp services. A 60-amp service is probably inadequate for a modern home. A 100-amp service is good for a home of less than 3,000 square feet that does not have central air-conditioning or electric heat. A home larger than 2,000 square feet that has central air-conditioning or electric heat probably needs a 200-amp service.</em>  According to <a href="https://community.openenergymonitor.org/t/ct-hole-diameter-for-north-america/5149">Bill Thompson of the Open Energy Monitor Project</a>, <em>US homes built before the late 60s were wired with Copper and typically had 100 Amp service, which used AWG 0 copper…Sometime in the late 60s to early 70s, Copper Service Entrance Wires were replaced by Aluminum. Since Aluminum has more resistance per foot than Copper, the equivalent Aluminum wire is two gauges larger than its Copper counterpart. About that same time, 200 Amp service became the norm.</em></li>
   <li>The wire gauge.  The Outside Diameter of the wire gauge determines how large the diameter of the CT clamp must be.  As Bill noted, wires could be copper or aluminum, or copper-clad aluminum.  More aluminum, more current - the wider the diameter.
     <ul>
       <li><a href="https://community.openenergymonitor.org/t/ct-hole-diameter-for-north-america/5149/3">100 Amp Service uses 1/0 AWG</a> = <a href="https://lugsdirect.com/Wire_Insulation_Outside_Diameter_Thickness_600V.html">12.08 mm</a>.</li>
@@ -162,7 +162,18 @@ To measure the current, we use two Current Transformers (CTs), one for each powe
   </li>
   <li>Whether the burden resistor is included.  This design assumes the CT <strong>does not</strong> include the burden resistor.  I.e.: it’s output is a current and not a voltage.</li>
   <li>The ratio of I(in) : I(out)</li>
-  <li>The inclusion of a zener diode.  This is a terrific safety measure to make sure when the CT is clamped on, there is on open current source.</li>
+  <li>The inclusion of a zener diode.  This is a terrific safety measure to make sure when the CT is clamped on, the circuit is not open.
+    <h1 id="our-choice-of-current-transformers">Our Choice of Current Transformers</h1>
+    <p>Two Current Transformers (CTs) are needed to get current readings on the two 120V lines.
+ ## 100 Amp <br />
+We’ll be using <a href="/https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/yhdc-sct-013-000-ct-sensor-report">the SCT-013-000 CT</a> for 100A homes.  It is popular with DIY home energy monitors.  There are two numbers of interest in the <a href="http://statics3.seeedstudio.com/assets/file/bazaar/product/101990029-SCT-013-000-Datasheet.pdf">YHDC SCT-013-000 datasheet</a>:</p>
+  </li>
+  <li>The diameter of the clamp opening - 13 mm</li>
+  <li>The I(OUT) - 50 mA<br />
+As Robert Wall of <a href="https://openenergymonitor.org/">the Open Energy Monitor project</a> noted to me <em>…the manufacturer will tweak the number of secondary turns to give the best accuracy overall.  The ratio of a c.t. is <strong>ALWAYS</strong> specified as a ratio of two currents, the rated primary current to the corresponding secondary current. So your SCT-013-000 is <strong>100 A : 50 mA</strong>.</em>
+    <h2 id="200-amp">200 Amp</h2>
+    <p>TBD: We’ll know what to use as the project progresses.</p>
+  </li>
 </ul>
 
 
@@ -172,7 +183,7 @@ To measure the current, we use two Current Transformers (CTs), one for each powe
 
         
         <a class="btn btn-primary float-left"
-          href="/2019/07/02/implementation-getting-started.html" data-toggle="tooltip"
+          href="/2019/07/02/implementation-monitor_installation.html" data-toggle="tooltip"
           data-placement="top" title="">&larr; Previous<span class="d-none d-md-inline">
             Post</span></a>
         

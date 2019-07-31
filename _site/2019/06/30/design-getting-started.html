@@ -33,7 +33,7 @@
   </title>
 
   <meta name="description"
-    content="Design - Getting Started A homeowner finds out about FitHome from a post on NextDoor. The post includes an email address to get started.">
+    content="Download A homeowner downloads the FitHome app from either the Apple App Store or Google Play store.">
   <!-- favicon -->
   <!-- generated favicon on this site: https://realfavicongenerator.net/ -->
   <!-- Stackoverflow had a Q/A about favicons in jekyll: http://bit.ly/2WcaKx2 -->
@@ -137,11 +137,42 @@
 
       <link rel="stylesheet" href="/assets/post-entry-style.css" />
 
-<h1 id="design---getting-started">Design - Getting Started</h1>
-<p>A homeowner finds out about FitHome from a post on NextDoor.  The post includes an email address to get started.
+<h1 id="download">Download</h1>
+<p>A homeowner downloads the FitHome app from either the Apple App Store or Google Play store.
 <img src="/assets/post-imgs/post-2019-6-30/contact_through_monitoring.png" alt="sketch image of getting started" /></p>
 
-<h1 id="1">1</h1>
+<h1 id="start-membership">Start Membership</h1>
+<p>Upon launching FitHome, the homeowner is shown the member registration screen.  If there are monitors available, the homeowner is shown the Start Training screen.<br />
+<img src="/assets/post-imgs/post-2019-6-30/start_training_screen.png" alt="Start training screen" />.<br />
+If there is a waitlist, the homeowner is shown the waiting list sign up screen.<br />
+<img src="/assets/post-imgs/post-2019-6-30/waitlist_screen.png" alt="Waitlist screen" /></p>
+<h2 id="geographic-location">Geographic Location</h2>
+<p>Whichever screen is shown, the homeowner is made aware of the limited geographic availability of the FitHome experience.  The limit is to make sure the homeowner will have a quality experience since there are a few places where personalized interactions are part of the experience, for example, when an electrician comes out to install the monitor.</p>
+<h3 id="supported-zip-codes">Supported Zip Codes</h3>
+<p>The FitHome experience ends here for a homeowner that does not find their zip code listed.  If their zip code is listed, they continue with the following….</p>
+<h2 id="enter-registration-information">Enter Registration Information</h2>
+<p>The homeowner enters member registration information and then taps on either the “START TRAINING” or “JOIN WAITING LIST” buttons.</p>
+<h3 id="start-training">Start Training</h3>
+<h4 id="firebase-entries">Firebase Entries</h4>
+<p>After tapping “START TRAINING”, the app uses the email and password to create an account in the Firebase account database. <br />
+<img src="/assets/post-imgs/post-2019-6-30/firebase_account_console_view.png" alt="Firebase account" /></p>
+
+<p>The app creates a node in the Firebase db where the node name is the user id.  The node contains additional fields collected on the Start Training screen.
+ <img src="/assets/post-imgs/post-2019-6-30/firebase_db_member_entry.png" alt="Firebase member entry" /><br />
+ <em>Note: At this point the machine name is not in the entry.  The machine name is added by member services when assigning the monitor.</em>
+ #### Firebase Alerts
+ When the entry is created, a notification and text message is sent to FitHome member services.  This alerts FitHome member services to assign a monitor.</p>
+
+<h4 id="assign-monitor">Assign Monitor</h4>
+<p>Changing the state of the app to “Start Training” notifies FitHome member services of the need to assign a monitor to the homeowner.  FitHome member services:</p>
+<ul>
+  <li>Enters the monitor’s machine name as a key / value.</li>
+</ul>
+
+<p>The name of the monitor is entered as a key/value within the node created by the homeowner within the Firebase db.</p>
+<h4 id="monitor-installation">Monitor Installation</h4>
+<p>The next screen helps the homeowner schedule a 1/2 hour appointment for an electrician to come out and install the monitor at available dates and times.  Once the appointment has been chosen and “SCHEDULE ELECTRICIAN” button has been tapped, the date/time is removed from the available times.  The electrician is notified and scheduled.  The app lets the homeowner know the appointment has been made.  A text is sent to the home owner within 24 hours of the appointment.</p>
+
 <p>The homeowner either mails or sends a text to us.  We email/text back:</p>
 
 <p>1) a “contract” to sign that states the homeowner will commit to one month of FitHome Personal Electricity Savings Training.<br />
@@ -164,7 +195,7 @@
 <p><img src="/assets/post-imgs/post-2019-6-30/pre-members-db.png" alt="pre-member entry" /></p>
 
 <ul>
-  <li>Contact the electrictian.  We give the electrician the homeowner’s address, contact info, and energy monitor.</li>
+  <li>Contact the electrictian.  We give the electrician the homeowner’s address, contact info, energy monitor, and Current Transformers.</li>
   <li>We contact the homeowner to let them know an electrician will be contacting them.</li>
 </ul>
 
@@ -196,7 +227,7 @@
 
         
         
-        <a class="btn btn-primary float-right" href="/2019/07/02/implementation-getting-started.html"
+        <a class="btn btn-primary float-right" href="/2019/07/02/implementation-monitor_installation.html"
           data-toggle="tooltip" data-placement="top" title="">Next<span class="d-none d-md-inline">
             Post</span> &rarr;</a>
         
